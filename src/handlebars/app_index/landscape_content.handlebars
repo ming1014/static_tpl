@@ -1,0 +1,92 @@
+<div class="content table-responsive table-full-width padding_none">
+	<div class="picture_text_content">
+		<article>
+			<form class="form-horizontal" role="form">
+			    {{#each data}}
+			    	<div  class="form-group">
+						    <label class="col-sm-3 control-label " for="ds_host">sku</label>
+						    <div class="col-sm-5">
+								<input class="form-control sku" value = "{{sku}}" id="ds_host" type="text" readonly="true">
+						    </div>
+						    <div class="col-sm-4">
+						    	
+						    </div>
+					</div>
+					<div  class="form-group">
+						    <label class="col-sm-3 control-label " for="ds_host">主标题</label>
+						    <div class="col-sm-5">
+								<input class="form-control main_title" value = "{{main_title}}" id="ds_host" type="text" placeholder="7字以内">
+						    </div>
+						    <div class="col-sm-4">
+						    	<a>不超过7个字</a>	
+						    </div>
+					</div>
+					<div  class="form-group">
+						    <label class="col-sm-3 control-label" for="ds_host">链接</label>
+						    <div class="col-sm-5">
+								<input class="form-control ad_uri" value = "{{uri}}" id="ds_host" type="text">
+						    </div>
+						    <div class="col-sm-4">	
+								<select class="option_Type" style = "display:none;" >
+									<option>选择链接类型</option>
+									<option>原生</option>
+									<option>H5</option>
+								</select>
+						    </div>
+					</div>
+					<div  class="form-group">
+						    <label class="col-sm-3 control-label" for="ds_host">月供内容</label>
+						    <div class="col-sm-3">
+						    	<input class="form-control" value="月供" type="text">
+						    </div>
+						    <div class="col-sm-3">
+								<input class="form-control pay_month input_red" value = "{{pay_month}}" id="ds_host" type="text">
+						    </div>
+						    <div class="col-sm-3">
+						    	<input class="form-control" value="期" type="text">
+						    </div>
+					</div>
+
+				    <div  class="form-group">
+						    <label class="col-sm-3 control-label" for="ds_host">售价</label>
+						    <div class="col-sm-5">
+								<input class="form-control total_price" id="ds_host" value = "{{price}}" type="text">
+						    </div>
+
+					</div>
+	                <div  class="form-group">
+					    <label class="col-sm-3 control-label" for="ds_host">标签内容</label>
+					    <div class="col-sm-5">
+							<input class="form-control label" value = "{{tag_content}}" id="ds_host" type="text">
+					    </div>
+					    <div class="col-sm-4">	
+					        <label class="col-sm-3 control-label" for="ds_host" style="width: 100%;margin-left: -40px;">没有可不填</label>
+					    </div>
+					</div>
+
+					<div class="form-group">
+						   <div class="col-sm-3 control-label parent-span" for="ds_host">
+								<span class="span-submit">
+								    <div>图片</div>
+								</span>
+						   </div>
+						   <div class="col-sm-5" style="position:relative;">
+						       <div class="form-control input_image">
+						       	  <i class="fa fa-plus-square"></i>
+						       </div>
+						       <input type="file" value="上传图片" class="summit_picture1" id = "file" name = "file" />
+						       <img src="{{pic_url}}" class="Upload_file1" id="ds_host" />
+						   </div>
+						    
+						   <div class="col-sm-4">
+						   </div>	
+					</div>
+				{{/each}}
+			</form>
+		</article>
+	</div>
+</div>
+
+
+<button class="btn btn-info edit_confirm fr">确定</button>
+<button class="btn btn-warning edit_quit fr">取消</button>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+#html()
+  #head()
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    #block("head")
+      this is head 
+    #end
+    <script>
+      window.static_url = "${static_resource}";
+      window.static_ui = "${static_ui_resource}";
+    </script>
+  #end
+  #body()
+  ## body for content info
+    #block("body")
+        This is body
+    #end
+    
+    <script src="${static_resource}/src/js/lib/lib.js"></script>
+    
+
+  
+
+    ##  block script for introduce script
+    #block('script')
+
+    #end
+  #end
+#end ## end html

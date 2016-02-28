@@ -1,0 +1,45 @@
+{
+	"ftp": {
+		"publish": {
+			"remoteDir": "/static_tpl",
+			"connect": {
+				"host": "172.16.50.218",
+				"port": "21",
+				"user": "deploy",
+				"password": "ufenqi@123"
+			}
+		},
+		"test": {
+			"remoteDir": "/upload/static_tpl",
+			"connect": {
+				"host": "172.16.50.184",
+				"port": "21",
+				"user": "mysftp",
+				"password": "ufenqi@123"
+			}
+		}
+	},
+	"git": {
+		"master": {
+			"remote": "git@182.92.188.224:static/static_tpl_pack.git",
+			"branch": "master",
+			"from": "/",
+			"to": "/"
+		},
+		"dev": {
+			"remote": "git@182.92.188.224:static/static_tpl_pack.git",
+			"branch": "dev",
+			"from": "/",
+			"to": "/",
+			"clean": true
+		},
+		"branch": {
+			"remote": "git@182.92.188.224:static/static_tpl_pack.git",
+			"branch": "test",
+			"from": "/",
+			"to": "/",
+			"clean": true
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+{{#each data}}
+<a class="shouji1 img_url" style = "background:url({{pic_url}});background-size:80%;background-repeat:no-repeat;"></a>
+<dl class = "goods_module" sku = "{{sku}}">
+    <dt class = "main_title">{{main_title}}</dt>
+    <dt class = "side_title">{{side_title}}</dt>
+    <dd class = "pay_month_div">
+      <span class = "pay_month_title">月供</span>&yen;
+      <span class = "pay_month">{{pay_month}}</span>
+    </dd>
+    <dd class = "price_div" style = "display:none;">
+      <span class = "price_title">售价</span>&yen;
+      <span class = "price">
+         {{price}}
+      </span>
+    </dd>
+</dl>
+{{/each}}

@@ -1,0 +1,23 @@
+#extends("/page/layout/layout_single.vm")
+#block('head')
+        <meta charset="utf-8">
+        <title>编辑预览页面</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="format-detection" content="telephone=no">
+        <link href="${static_tpl_resource}/src/css/bin/app/preview.css" rel="stylesheet">
+#end
+
+#block('body')
+    <div class = "preview_container" id = "preview_container">
+    </div>
+    <div class="QR_code"></div>
+#end
+
+
+#block('script')
+    <script src="${static_tpl_resource}/src/js/bin/app/preview/index.js"></script>
+#end
+#end
+

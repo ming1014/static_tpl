@@ -1,0 +1,89 @@
+{
+	"packs":[
+	        {
+	        	"reg": "/**/*.scss",
+	            "useDomain": true,
+	        	"release": "/static/$&"
+	        },
+	        {
+	        	"reg": "/**/*.css",
+	            "useDomain": true,
+	        	"release": "/static/$&"
+	        },
+			{
+	        	"reg": "/src/js/**/lib.js",
+	            "isMod": false,
+	            "useDomain": true,
+	        	"release": "/static/$&"
+	        },
+	        {
+	        	"reg": "/src/js/**/lib-debug.js",
+	            "isMod": false,
+	            "useDomain": true,
+	        	"release": "/static/$&"
+	        },
+			{
+	        	"reg": "/src/js/**/index.js",
+	            "isMod": false,
+	            "useDomain": true,
+	        	"release": "/static/$&"
+	        },
+	        {
+	        	"reg": "/src/js/**/**.js",
+	            "isMod": true,
+	            "useDomain": true,
+	        	"release": "/static/$&"
+	        },
+	        {
+	        	"reg":"/src/js/**/*.json",
+	        	"isJsLike": true,
+	            "useDomain": true,
+	        	"release": "/static/$&"
+	        },
+	        {
+                "reg" : "/**/**.tpl",
+                "isJsLike" : true,
+                "isMod": false,
+	            "useDomain": true,
+                "release" : "/static/$&"
+            },
+	        {
+	        	"reg":"/src/css/font/(.*.(?:font))/i",
+	        	"release":"/static/$&"
+	        },
+	        {
+	        	"reg": "/**/*.jpg",
+	        	"release": "/static/$&"
+	        },
+	        {
+	        	"reg": "/**/*.png",
+	        	"release": "/static/$&"
+	        },
+	        {
+	        	"reg": "/**/*.gif",
+	        	"release": "/static/$&"
+	        },
+	        {
+	        	"reg": "/conf/**.json",
+	        	"release": false
+	        },
+	        {
+	        	"reg": "README.md",
+	        	"release": false
+	        },
+	        {
+	        	"reg":"package.json",
+	        	"release": false
+	        },
+	        {
+	        	"reg": "/.*/",
+	        	"release": false
+	        }
+	],
+	"domain":{
+		"**.js": "http://test.st.ufenqi.com",
+		"**.css": "http://test.st.ufenqi.com",
+		"imgage": "http://test.st.ufenqi.com",
+		"**.tpl":"http://test.st.ufenqi.com"
+	}
+}

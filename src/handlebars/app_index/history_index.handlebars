@@ -1,0 +1,38 @@
+<div class="history-content table-responsive table-full-width padding_none">
+    <table class="table table-hover table-striped">
+        <thead>
+            <tr>
+		    	<th class="percent_3">创建时间</th>
+		    	<th class="percent_2">名称</th>
+          <th class="percent_2">状态</th>
+		    	<th class="percent_3">操作</th>
+		    </tr>
+        </thead>
+        <tbody class="edit_sort_zone">
+           {{#each data}}
+                <tr class="row tr_sortable"  button-name = "{{buttonName}}">
+                	<td class="percent_3 img_percent">
+                      {{createDate}}
+                	</td>
+                	<td class="percent_2" style="word-wrap:break-word;">
+                      {{indexName}}
+                	</td>
+                  <td class="percent_2 release">
+                   {{appStatus}}
+                  </td>
+                	<td class="percent_3">
+                       <i class="fa fa-edit history_edit" data-id = {{id}} data-toggle="tooltip" data-placement="bottom" title="" data-original-title="编辑"></i>
+                       <i class="fa fa-minus-square history_remove" data-id = {{id}} data-toggle="tooltip" data-placement="bottom" title="" data-original-title="删除"></i>
+                       <i class="fa fa-play-circle history_publish" data-id = {{id}} data-version = {{appVersion}} data-toggle="tooltip" data-placement="bottom" title="" data-original-title="发布"></i>
+                       <i class="fa fa-hand-o-down history_offline" style = "display:none;" data-id = {{id}} data-version = {{appVersion}} data-toggle="tooltip" data-placement="bottom" title="" data-original-title="下架"></i>
+                       <i class="fa fa-eye history_more" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="详情" effectTime = "{{effectTime}}" createUser = "{{createUser}}" appVersion = "{{appVersion}}" appStatus = "{{appStatus}}" createDate = "{{createDate}}" appId = "{{id}}" indexName = "{{indexName}}"></i>
+                    </td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>      
+</div>
+
+<div class="tc">没有了......</div>
+
+

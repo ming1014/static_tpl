@@ -1,0 +1,37 @@
+    <div class="sidebar" data-color="blue" data-image="assets/img/sidebar-5.jpg">    
+    
+    <!--   you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple" -->
+    
+    
+        <div class="sidebar-wrapper">
+                       
+            <ul class="nav">
+                <li class="active" id = "add_index_page">
+                    <a href="#">
+                        <i class="fa fa-plus-circle"></i> 
+                        <p class="tc">新建首页</p>
+                    </a>            
+                </li>
+                <li id = "history_li_btn">
+                    <a href="#">
+                        <i class="fa fa-history"></i>
+                        <p class="tc">历史首页</p>
+                    </a>            
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-archive"></i>
+                        <p class="tc">模板管理</p>
+                    </a>            
+                </li>
+         
+            </ul> 
+        </div>
+
+        <div class="content" id = "left_switch_content">
+          <div id="cube_div">
+              #widget('page/common/app_index/cube.vm') 
+          </div>
+        </div>
+
+    </div>

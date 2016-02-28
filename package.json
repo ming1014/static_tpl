@@ -1,0 +1,33 @@
+{
+  "name": "static_tpl",
+  "version": "0.0.1",
+  "description": "static for admin tpl",
+  "main": "fis-conf.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@182.92.188.224:web/static_admin_tpl.git"
+  },
+  "keywords": [
+    "jello",
+    "vm",
+    "static",
+    "h5",
+    "ufenqi"
+  ],
+  "author": "T-L",
+  "license": "ISC",
+  "devDependencies": {
+    "fis-parser-marked": "",
+    "fis-lint-csslint": "",
+    "fis-lint-jshint": "",
+    "fis-parser-sass": "",
+    "fis-parser-handlebars": "",
+    "fis-spriter-csssprites": ""
+  },
+  "dependencies": {
+    "fis-parser-handlebars-3.x": "0.0.1"
+  }
+}

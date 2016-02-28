@@ -1,0 +1,17 @@
+{{!--  ##横排4个图文广告位 t10 --}}
+   <div class="div1 clothes template drop_item index_t10" data-tpl = "t10" appId = "{{data.appId}}">
+       <ul>
+           {{#each data.content}}
+             <li class="edit_each_click" data-edit ="one_row_three_four" data-uri="{{uri}}">
+               <dl>
+                   <dt class = "main_title">{{mainTitle}}</dt>
+                   <dd class = "side_title">{{sideTitle}}</dd>
+               </dl>
+               <a class="clothes-images1 img_url" style = "background:url({{picUri}});background-size: contain;height:75px;background-repeat:no-repeat;"></a>
+             </li>
+           {{/each}}
+            <div style = "clear:both;"></div>
+       </ul>
+
+       <button type="button" class="btn btn-default btn-xs remove"><span class="glyphicon glyphicon-trash"></span></button>
+   </div>

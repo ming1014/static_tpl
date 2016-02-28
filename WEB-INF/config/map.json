@@ -1,0 +1,336 @@
+{
+    "res": {
+        "page/app/index.vm": {
+            "uri": "/page/app/index.vm",
+            "type": "vm",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "page/app/preview.vm": {
+            "uri": "/page/app/preview.vm",
+            "type": "vm",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "page/common/app_index/cube.vm": {
+            "uri": "/page/common/app_index/cube.vm",
+            "type": "vm",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "page/common/footer/footer.vm": {
+            "uri": "/page/common/footer/footer.vm",
+            "type": "vm",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "page/common/header/header.vm": {
+            "uri": "/page/common/header/header.vm",
+            "type": "vm",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "page/common/side/composite_side.vm": {
+            "uri": "/page/common/side/composite_side.vm",
+            "type": "vm",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "page/common/side/left.vm": {
+            "uri": "/page/common/side/left.vm",
+            "type": "vm",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "page/index/index.vm": {
+            "uri": "/page/index/index.vm",
+            "type": "vm",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "page/layout/layout_single.vm": {
+            "uri": "/page/layout/layout_single.vm",
+            "type": "vm",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "page/operation/index.vm": {
+            "uri": "/page/operation/index.vm",
+            "type": "vm",
+            "extras": {
+                "isPage": true
+            }
+        },
+        "src/css/bin/app/edit.scss": {
+            "uri": "/static/src/css/bin/app/edit.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/bin/app/header.scss": {
+            "uri": "/static/src/css/bin/app/header.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/bin/app/index.scss": {
+            "uri": "/static/src/css/bin/app/index.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/bin/app/left.scss": {
+            "uri": "/static/src/css/bin/app/left.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/bin/operation/index.scss": {
+            "uri": "/static/src/css/bin/operation/index.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/bin/tpl/index.scss": {
+            "uri": "/static/src/css/bin/tpl/index.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/common/common.scss": {
+            "uri": "/static/src/css/common/common.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/common/header.scss": {
+            "uri": "/static/src/css/common/header.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/common/pc.scss": {
+            "uri": "/static/src/css/common/pc.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/outer/animate.scss": {
+            "uri": "/static/src/css/outer/animate.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/outer/bootstrap-theme.css": {
+            "uri": "/static/src/css/outer/bootstrap-theme.css",
+            "type": "css"
+        },
+        "src/css/outer/bootstrap-theme.min.css": {
+            "uri": "/static/src/css/outer/bootstrap-theme.min.css",
+            "type": "css"
+        },
+        "src/css/outer/bootstrap.min.scss": {
+            "uri": "/static/src/css/outer/bootstrap.min.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/outer/bootstrap.scss": {
+            "uri": "/static/src/css/outer/bootstrap.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/outer/demo.css": {
+            "uri": "/static/src/css/outer/demo.css",
+            "type": "css"
+        },
+        "src/css/outer/font-awesome.scss": {
+            "uri": "/static/src/css/outer/font-awesome.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/outer/jquery-ui.scss": {
+            "uri": "/static/src/css/outer/jquery-ui.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/outer/light-bootstrap-dashboard.scss": {
+            "uri": "/static/src/css/outer/light-bootstrap-dashboard.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/outer/normalize.scss": {
+            "uri": "/static/src/css/outer/normalize.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/css/outer/pe-icon-7-stroke.scss": {
+            "uri": "/static/src/css/outer/pe-icon-7-stroke.css",
+            "type": "css",
+            "extras": {}
+        },
+        "src/handlebars/app_index/Carousel-floor.handlebars": {
+            "uri": "/static/src/handlebars/app_index/Carousel-floor.js",
+            "type": "js"
+        },
+        "src/handlebars/app_index/Lateral-floor.handlebars": {
+            "uri": "/static/src/handlebars/app_index/Lateral-floor.js",
+            "type": "js"
+        },
+        "src/handlebars/app_index/Vertical-heading.handlebars": {
+            "uri": "/static/src/handlebars/app_index/Vertical-heading.js",
+            "type": "js"
+        },
+        "src/handlebars/app_index/carousel.handlebars": {
+            "uri": "/static/src/handlebars/app_index/carousel.js",
+            "type": "js"
+        },
+        "src/handlebars/app_index/category.handlebars": {
+            "uri": "/static/src/handlebars/app_index/category.js",
+            "type": "js"
+        },
+        "src/handlebars/app_index/header_ad.handlebars": {
+            "uri": "/static/src/handlebars/app_index/header_ad.js",
+            "type": "js"
+        },
+        "src/handlebars/app_index/history_index.handlebars": {
+            "uri": "/static/src/handlebars/app_index/history_index.js",
+            "type": "js"
+        },
+        "src/handlebars/app_index/picture.handlebars": {
+            "uri": "/static/src/handlebars/app_index/picture.js",
+            "type": "js"
+        },
+        "src/handlebars/app_index/picture_text.handlebars": {
+            "uri": "/static/src/handlebars/app_index/picture_text.js",
+            "type": "js"
+        },
+        "src/js/bin/app/assignment.js": {
+            "uri": "/static/src/js/bin/app/assignment.js",
+            "type": "js"
+        },
+        "src/js/bin/app/edit.js": {
+            "uri": "/static/src/js/bin/app/edit.js",
+            "type": "js",
+            "deps": [
+                "src/js/bin/app/img_upload.js",
+                "src/js/bootstrap/bootstrap-checkbox-radio-switch.js",
+                "src/js/bin/app/assignment.js"
+            ]
+        },
+        "src/js/bin/app/history_index.js": {
+            "uri": "/static/src/js/bin/app/history_index.js",
+            "type": "js"
+        },
+        "src/js/bin/app/img_upload.js": {
+            "uri": "/static/src/js/bin/app/img_upload.js",
+            "type": "js"
+        },
+        "src/js/bin/app/index.js": {
+            "uri": "/static/src/js/bin/app/index.js",
+            "type": "js",
+            "deps": [
+                "handlebars",
+                "main"
+            ]
+        },
+        "src/js/bin/app/main.js": {
+            "uri": "/static/src/js/bin/app/main.js",
+            "type": "js",
+            "deps": [
+                "history",
+                "edit"
+            ]
+        },
+        "src/js/bin/app/preview/index.js": {
+            "uri": "/static/src/js/bin/app/preview/index.js",
+            "type": "js",
+            "deps": [
+                "preview"
+            ]
+        },
+        "src/js/bin/app/preview/preview.js": {
+            "uri": "/static/src/js/bin/app/preview/preview.js",
+            "type": "js"
+        },
+        "src/js/bin/tpl/index.js": {
+            "uri": "/static/src/js/bin/tpl/index.js",
+            "type": "js",
+            "deps": [
+                "main"
+            ]
+        },
+        "src/js/bin/tpl/main.js": {
+            "uri": "/static/src/js/bin/tpl/main.js",
+            "type": "js"
+        },
+        "src/js/bootstrap/bootstrap-checkbox-radio-switch.js": {
+            "uri": "/static/src/js/bootstrap/bootstrap-checkbox-radio-switch.js",
+            "type": "js"
+        },
+        "src/js/bootstrap/bootstrap-notify.js": {
+            "uri": "/static/src/js/bootstrap/bootstrap-notify.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "src/js/bootstrap/bootstrap-select.js": {
+            "uri": "/static/src/js/bootstrap/bootstrap-select.js",
+            "type": "js"
+        },
+        "src/js/bootstrap/bootstrap.min.js": {
+            "uri": "/static/src/js/bootstrap/bootstrap.min.js",
+            "type": "js"
+        },
+        "src/js/bootstrap/chartist.min.js": {
+            "uri": "/static/src/js/bootstrap/chartist.min.js",
+            "type": "js"
+        },
+        "src/js/bootstrap/demo.js": {
+            "uri": "/static/src/js/bootstrap/demo.js",
+            "type": "js"
+        },
+        "src/js/bootstrap/jquery-1.10.2.js": {
+            "uri": "/static/src/js/bootstrap/jquery-1.10.2.js",
+            "type": "js"
+        },
+        "src/js/bootstrap/jquery-ui.js": {
+            "uri": "/static/src/js/bootstrap/jquery-ui.js",
+            "type": "js"
+        },
+        "src/js/bootstrap/light-bootstrap-dashboard.js": {
+            "uri": "/static/src/js/bootstrap/light-bootstrap-dashboard.js",
+            "type": "js"
+        },
+        "src/js/common/handlebars-v3.js": {
+            "uri": "/static/src/js/common/handlebars-v3.js",
+            "type": "js",
+            "deps": [
+                "source-map"
+            ]
+        },
+        "src/js/lib/bootstrap.js": {
+            "uri": "/static/src/js/lib/bootstrap.js",
+            "type": "js"
+        },
+        "src/js/lib/jquery-ui.js": {
+            "uri": "/static/src/js/lib/jquery-ui.js",
+            "type": "js",
+            "deps": [
+                "jquery"
+            ]
+        },
+        "src/js/lib/jquery.js": {
+            "uri": "/static/src/js/lib/jquery.js",
+            "type": "js"
+        },
+        "src/js/lib/lib.js": {
+            "uri": "/static/src/js/lib/lib.js",
+            "type": "js"
+        },
+        "src/js/lib/sea.js": {
+            "uri": "/static/src/js/lib/sea.js",
+            "type": "js"
+        }
+    },
+    "pkg": {}
+}

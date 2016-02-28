@@ -1,0 +1,13 @@
+{{!--  ##头条 t2 --}}
+   <div class="div1 template Staging-headlines drop_item edit_each_click index_t2" data-tpl = "t2" style="height:auto" data-edit = "header_ad" appId = "{{data.appId}}">
+       
+       {{#each data.content}}
+       <p data-uri = "{{uri}}">
+           <span class="share_nopay">{{mainTitle}}</span>
+           <span class="header_ad_content">{{sideTitle}}</span>
+       </p>
+       {{/each}}
+       <button type="button" class="btn btn-default btn-xs remove"><span class="glyphicon glyphicon-trash"></span></button>
+       
+
+   </div>

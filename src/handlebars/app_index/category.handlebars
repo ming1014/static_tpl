@@ -1,0 +1,42 @@
+<div class="content table-responsive table-full-width padding_none">
+    <div class="close_edit">
+    <table class="table table-hover table-striped">
+        <thead>
+          <tr>
+            <th class="percent_2">类目名称</th>
+            <th class="percent_2">图片</th>
+            <th class="percent_4">跳转路径</th>
+            <th class="percent_2">操作</th>
+          </tr>
+        </thead>
+        <tbody class="edit_sort_zone t1_edit_popover">
+            {{#each data}}
+            <tr class="row tr_sortable">
+              <td class="percent_2">
+                 <input type="text" value="{{title}}" class="cate_name"/>
+              </td>
+              <td class="percent_2 img_percent">
+                   <img  class="cate_img" src="{{picUri}}" class="nav_img">
+                   <input type="file" class="img_upload" id="file" name = "file"/>
+              </td>
+              <td class="percent_4">
+                   <textarea rows="2" class="cate_uri">{{uri}}
+                   </textarea>
+              </td>
+              <td class="percent_2" style = "position:relative;">
+                   <i class="fa {{lock_status}} lock-change" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{lock_title}}" style = "display:none;"></i>
+                   <i class="fa fa-plus-square" style = "position:relative;">
+                   </i>
+                   <i class="fa fa-minus-square"></i>
+
+
+                </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+       
+</div>
+
+<button class="btn btn-info edit_confirm fr">确定</button>
+<button class="btn btn-warning edit_quit fr">取消</button>

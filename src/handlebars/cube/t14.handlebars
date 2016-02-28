@@ -1,0 +1,40 @@
+{{!-- ##横向商品楼层 t14 --}}
+  <div class="div1 Girl-area template drop_item cancel_drag index_t14" data-tpl = "t14" style="height:310px;" appId = "{{data.appId}}">
+       <p style="height:30px;line-height:30px;" data-uri = "" class = "edit_each_click" data-edit = "landscape_header_title" >
+         <span class = "landscape_header_title" style="float:left;color:#333;" data-more = "{{data.more}}">{{data.title}}</span>
+         <span class="more" data-more = "{{data.more}}">></span>
+       </p>
+       {{#each data.content}}
+         <a class = "header_img edit_each_click landscape_header_img" style = "background:url({{picUri}});background-size:contain;background-repeat:no-repeat;background-position:center center;" data-edit = "landscape_header_img" data-uri = "{{uri}}" sku = "{{skus}}" pricestyle = "{{priceStyle}}">
+           
+         </a>  
+         <div class="swiper-container">
+             <ul class="swiper-wrapper">
+                {{#each goodsContent}}
+                     <li class = "edit_each_click origin_add swiper-slide" data-edit = "landscape_content" data-uri = "{{uri}}" sku = "{{sku}}">
+                         <dl>
+                             <dt class="Girl-area-dt1 img_url" style = "background:url({{picUri}});background-size:contain;background-repeat:no-repeat;background-position:center center;"></dt>
+                             <dd class = "main_title">{{mainTitle}}</dd>
+                             <dd class="Girl-area-price pay_month_div">
+                                 <span class = "pay_month_title">月供</span>&yen;
+                                 <span class = "pay_month"> {{payMonth}}</span>
+                             </dd>
+                             <dd class="Girl-area-price price_div" style = "display:none;">
+                                 <span class = "pricestyle">{{price_title}}</span>&yen;
+                                 <span class = "price"> {{price}}</span>
+                             </dd>
+                         </dl>               
+                     </li>
+                {{/each}}
+             </ul>     
+              <!-- Add Arrows -->
+              <div class="swiper-button-next swipe_button" style = "top:30%;display:none;opacity:0;">
+                <i class="fa fa-angle-right"></i>
+              </div>
+              <div class="swiper-button-prev swipe_button" style = "top:30%;display:none;opacity:0;">
+                <i class="fa fa-angle-left"></i>
+              </div>
+         </div>
+      {{/each}}
+      <button type="button" class="btn btn-default btn-xs remove"><span class="glyphicon glyphicon-trash"></span></button>
+  </div>

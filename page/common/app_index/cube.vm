@@ -1,0 +1,433 @@
+<div class="top">
+    <ul class="nav">
+        <li>
+            <a href="#">
+                <i class="fa fa-file-image-o"></i>
+                <p class="tc">纯图</p>
+            </a>            
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-file-video-o"></i>
+                <p class="tc">图文</p>
+            </a>            
+        </li>
+ 
+    </ul> 
+</div>
+
+<div class="main clearfix">   
+   ##类目 t1
+   <div class="div1 first-list template drop_item edit_each_click" data-tpl = "t1" data-edit = "category" data-toggle='tooltip' title = "类目模板" appId = "">
+       <ul>
+           <li data-uri = "" lock-status = "true">
+              <a class="first-list-images1 cate_img"></a>
+              <span>标题</span>
+           </li>
+           <li data-uri = "" lock-status = "true">
+               <a class="first-list-images2 cate_img"></a><span>标题</span>
+           </li>
+           <li data-uri = "" lock-status = "true">
+               <a class="first-list-images3 cate_img"></a><span>标题</span>
+           </li>
+           <li data-uri = "" lock-status = "true">
+               <a class="first-list-images4 cate_img"></a><span>标题</span>
+           </li>
+       </ul>
+   </div>
+   ##头条 t2
+   <div class="div1 template Staging-headlines drop_item edit_each_click" data-tpl = "t2" style="height:auto" data-edit = "header_ad">
+       <p data-uri = "" lock-status = "true">
+           <span class="share_nopay">分期头条</span>
+           <span class="header_ad_content">头条具体内容</span>
+       </p>
+   </div>
+
+
+   ##轮播 t3
+    <div class="template drop_item edit_each_click carousel_container" data-tpl = "t3" data-edit = "carousel" style = "height:auto;">
+        <div id="carousel_tpl" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active slide_div">
+              <img class = "img_data" data-uri = "" src="http://cdn.ufenqi.com/cms/img/750_428.png" lock-status = "true" alt="...">
+              <div class = "carousel-caption">
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          </a>
+        </div>
+    </div>
+   ##广告位高 t4
+  <div id="div_ad_96perc" data-tpl = "t4" data-edit = "only_pic_big" class="template drop_item edit_each_click" style="background:#fff;">
+      <img class="ad_96perc" src="http://cdn.ufenqi.com/cms/img/750x200.jpg" data-uri = "" alt="">
+  </div>
+    ##广告位低 t5
+  <div id="div_ad_90perc" data-tpl = "t5" data-edit = "only_pic_small" class="template drop_item edit_each_click" style="height:auto !important;background:#fff;">
+      <img class="ad_90perc" src="http://cdn.ufenqi.com/cms/img/banner.png" data-uri = "" alt="">
+  </div>
+  ##1+1图片广告位 t6
+  <div id="div_ad_2pics" data-tpl = "t6" class="template drop_item" style="background:#fff;">
+      <img class="ad_2pics_l edit_each_click" data-edit = "two_samll_pic" data-uri = "" src="http://cdn.ufenqi.com/cms/img/one_plus_one.png" alt="">
+      <img class="ad_2pics_l edit_each_click" data-edit = "two_samll_pic" data-uri = "" src="http://cdn.ufenqi.com/cms/img/one_plus_one.png" alt="">
+      <div class = "t6_clear_both" style = "clear:both;"></div>
+  </div>
+  ## 1+1图文广告位 t7
+   <div class="div1 rose template drop_item" data-tpl = "t7" >
+       <div class="rose-left edit_each_click" data-com-price = "" data-edit = "onetwo_text_pic2" data-uri = "">
+           <dl>
+               <dt class = "main_title">主标题</dt>
+               <dd class = "side_title">副标题</dd>
+               <dd class="rose-dd pay_month_div">
+                   <span class = "pay_month_title">月供</span>&yen;
+                   <span class = "pay_month">0&times;24</span>
+               </dd>
+               <dd class="rose-dd price_div" style = "display:none;">
+                   <span class = "price_title">售价</span>&yen;
+                   <span class = "pay_month">0&times;24</span>
+               </dd>
+           </dl>
+           <a class = "img_url"></a>
+       </div>
+       <div class="rose-right edit_each_click" data-com-price = "" data-edit = "onetwo_text_pic2" data-uri = "">
+           <dl>
+               <dt class = "main_title">主标题</dt>
+               <dd class = "side_title">副标题</dd>
+               <dd class="rose-dd pay_month_div">
+                   <span class = "pay_month_title">月供</span>&yen;
+                   <span class = "pay_month">0&times;24</span>
+               </dd>
+               <dd class="rose-dd price_div" style = "display:none;">
+                   <span class = "price_title">售价</span>&yen;
+                   <span class = "pay_month">0&times;24</span>
+               </dd>
+           </dl>
+           <a class = "img_url"></a>
+       </div>  
+       <div style="clear:both;"></div>
+   </div>
+   ##1+2图文广告位t8
+   <div class="div1 template drop_item" data-edit = "t8" data-tpl = "t8" style="height:auto;"
+      data-edit = "picture_text" tpl-code = "t7" data-container="body" data-toggle="popover" data-placement="right" 
+     >
+       <div class="div1-left edit_each_click" data-com-price = "" data-edit = "onetwo_text_pic1" data-uri = "">
+            <dl>
+                <dt class="main_title">主标题</dt>
+                <dd class="side_title">副标题</dd>
+            </dl>
+           <div class="div1-left-bottom">
+               <div class="div1-left-bottom1">
+                   <img src="http://cdn.ufenqi.com/cms/img/one_plus_two_left.png" class="pay_month"/>
+               </div>
+               <div class="div1-left-bottom2">
+                   <img src="http://cdn.ufenqi.com/cms/img/one_plus_two_left.png" class="img_url"/>
+               </div>
+           </div>
+       </div>
+       <div class="div1-right">
+           <div class="div1-right-top onetwo_text_pic2 edit_each_click" data-com-price = "" data-edit = "onetwo_text_pic2" data-uri = "">
+               <div class="t1">
+                   <dl>
+                       <dt class="main_title">主标题</dt>
+                       <dd class="side_title">副标题</dd>
+                       <dd class="dd pay_month_div">
+                          <span class = "pay_month_title">月供</span>&yen;
+                          <span class="pay_month">0&times;24</span>
+                       </dd>
+                       <dd class="dd price_div" style = "display:none;">
+                          <span class = "price_title">售价</span>&yen;
+                          <span class="price">0</span>
+                       </dd>
+                   </dl>
+               </div>
+               <div class="t2 img_url"></div>
+           </div>
+           <div class="div1-right-bottom onetwo_text_pic2 edit_each_click" data-com-price = "" data-edit = "onetwo_text_pic2" data-uri = "">
+               <div class="t3">
+                   <dl>
+                       <dt class="main_title">主标题</dt>
+                       <dd class="side_title">副标题</dd>
+                       <dd class="dd pay_month_div">
+                          <span class = "pay_month_title">月供</span>&yen;
+                          <span class="pay_month">0&times;24</span>
+                       </dd>
+                       <dd class="dd price_div" style = "display:none;">
+                          <span class = "price_title">售价</span>&yen;
+                          <span class="price">2500</span>
+                       </dd>
+                   </dl>
+               </div>
+               <div class="t4 img_url"></div>
+           </div>
+       </div>
+       <div style="clear:both;"></div>
+   </div>
+   ##横排3个图文广告位 t9
+   <div class="div1 watch template drop_item" data-tpl = "t9" style="height:150px">
+       <ul>
+           <li class="edit_each_click" data-edit ="one_row_three_four" data-uri="">
+           <dl>
+               <dt class = "main_title">主标题</dt>
+               <dd class = "side_title">副标题</dd>
+           </dl>
+           <a class="watch-images1 img_url"></a>
+           </li>
+           <li class="edit_each_click" data-edit ="one_row_three_four" data-uri="">
+               <dl>
+                   <dt class = "main_title">主标题</dt>
+                   <dd class = "side_title">副标题</dd>
+               </dl>
+               <a  class="watch-images2 img_url"></a>
+           </li>
+           <li class="edit_each_click" data-edit ="one_row_three_four" data-uri="">
+               <dl>
+                   <dt class = "main_title">主标题</dt>
+                   <dd class = "side_title">副标题</dd>
+               </dl>
+               <a  class="watch-images3 img_url"></a>
+           </li>       
+       </ul>
+   </div>
+   ##横排4个图文广告位 t10
+   ## template drop_item edit_each_click carousel_container
+   <div class="div1 clothes template drop_item" data-tpl = "t10">
+       <ul>
+           <li class="edit_each_click" data-edit ="one_row_three_four" data-uri="">
+           <dl>
+               <dt class = "main_title">主标题</dt>
+               <dd class = "side_title">副标题</dd>
+           </dl>
+           <a class="clothes-images1 img_url"></a>
+           </li>
+           <li class="edit_each_click" data-edit ="one_row_three_four" data-uri="">
+           <dl>
+               <dt class = "main_title">主标题</dt>
+               <dd class = "side_title">副标题</dd>
+           </dl>
+           <a  class="clothes-images2 img_url"></a>
+           </li>
+           <li class="edit_each_click" data-edit ="one_row_three_four" data-uri="">
+               <dl>
+                   <dt class = "main_title">主标题</dt>
+                   <dd class = "side_title">副标题</dd>
+               </dl>
+               <a  class="clothes-images3 img_url"></a>
+           </li>
+           <li class="edit_each_click" data-edit ="one_row_three_four" data-uri="">
+               <dl>
+               <dt class = "main_title">主标题</dt>
+               <dd class = "side_title">副标题</dd>
+           </dl>
+           <a class="clothes-images4 img_url"></a>
+           </li>
+       </ul>
+   </div>
+
+   ##坑位导航 t11
+   <div class="div1 phone-list template drop_item edit_each_click" data-tpl = "t11" style="height:auto;width:40%;display:none;" data-edit = "navigate">
+       <div class="phone-list-content">
+       <dl>
+           <dt class = "main_title">主标题</dt>
+           <dd class = "side_title">副标题</dd>
+       </dl>
+       <ul>
+           <li><a><span class = "nav1" data-uri = "">导航一</span></a><a><span class = "nav2" data-uri = "">导航二</span></a></li>
+           <li><a><span class = "nav3" data-uri = "">导航三</span></a><a><span class = "nav4" data-uri = "">导航四</span></a></li>
+           <li><a><span class = "nav5" data-uri = "">导航五</span></a><a><span class = "nav6" data-uri = "">导航六</span></a></li>
+       </ul>
+
+       </div>
+   </div>
+   ##坑位图片内置广告 t12
+   <div id="div_ad_inPits_l" class="template drop_item edit_each_click" data-tpl = "t12" data-edit = "navigate_pic" style = "display:none;">
+      <img class="ad_inPits" src="http://cdn.ufenqi.com/cms/img/ad_inPits.png" data-uri = "" alt="">
+   </div>
+   <div style="clear:both;"></div>
+
+  ##轮播商品 t13
+   <div class="template drop_item edit_each_click carousel_container" data-tpl = "t13" data-edit = "carousel_goods" style = "height:auto;">
+        <div class="Carousel_title">人气单品</div>
+        <div id="carousel_tpl" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+
+            <div class="item active slide_div">
+              <img class = "img_data" data-uri = "" lock-status = "true" src="http://cdn.ufenqi.com/cms/img/750_428.png" alt="...">
+              <div class = "carousel-caption">
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          </a>
+        </div>
+    </div>
+  ##横向商品楼层 t14
+  <div class="div1 Girl-area template drop_item cancel_drag" data-tpl = "t14" style="height:310px;">
+       <p style="height:30px;line-height:30px;" data-uri = "" class = "edit_each_click" data-edit = "landscape_header_title">
+         <span class = "landscape_header_title" style="float:left;color:#333;" data-more = "">横向楼层标题</span>
+         <span class="more" data-more = "">></span>
+       </p>
+       <a class = "header_img edit_each_click landscape_header_img" data-edit = "landscape_header_img" data-uri = "" sku = "" isshowPaymonth = "" isShowPrice = "" priceStyle = "售价">
+         
+       </a>  
+       <div class="swiper-container">
+           <ul class="swiper-wrapper">
+                   <li class = "edit_each_click origin_add swiper-slide" data-edit = "landscape_content" data-uri = "" sku = "" label = "">
+                       <dl>
+                           <dt class="Girl-area-dt1 img_url"></dt>
+                           <dd class = "main_title">主标题</dd>
+                           <dd class="Girl-area-price pay_month_div">
+                               <span class = "pay_month_title">月供</span>&yen;
+                               <span class = "pay_month"> 0&times;24</span>
+                           </dd>
+                           <dd class="Girl-area-price price_div" style = "display:none;">
+                               <span class = "price_title">售价</span>&yen;
+                               <span class = "price"> 0</span>
+                           </dd>
+                       </dl>               
+                   </li>
+
+
+                   <li class = "edit_each_click origin_add swiper-slide" data-edit = "landscape_content" data-uri = "" sku = "" label = "">
+                       <dl>
+                           <dt class="Girl-area-dt1 img_url"></dt>
+                           <dd class = "main_title">主标题</dd>
+                           <dd class="Girl-area-price pay_month_div">
+                               <span class = "pay_month_title">月供</span>&yen;
+                               <span class = "pay_month"> 0&times;24</span>
+                           </dd>
+                           <dd class="Girl-area-price price_div" style = "display:none;">
+                               <span class = "price_title">售价</span>&yen;
+                               <span class = "price"> 0</span>
+                           </dd>
+                       </dl>               
+                   </li>
+
+                                      <li class = "edit_each_click origin_add swiper-slide" data-edit = "landscape_content" data-uri = "" sku = "" label = "">
+                       <dl>
+                           <dt class="Girl-area-dt1 img_url"></dt>
+                           <dd class = "main_title">主标题</dd>
+                           <dd class="Girl-area-price pay_month_div">
+                               <span class = "pay_month_title">月供</span>&yen;
+                               <span class = "pay_month"> 0&times;24</span>
+                           </dd>
+                           <dd class="Girl-area-price price_div" style = "display:none;">
+                               <span class = "price_title">售价</span>&yen;
+                               <span class = "price"> 0</span>
+                           </dd>
+                       </dl>               
+                   </li>
+
+                                      <li class = "edit_each_click origin_add swiper-slide" data-edit = "landscape_content" data-uri = "" sku = "" label = "">
+                       <dl>
+                           <dt class="Girl-area-dt1 img_url"></dt>
+                           <dd class = "main_title">主标题</dd>
+                           <dd class="Girl-area-price pay_month_div">
+                               <span class = "pay_month_title">月供</span>&yen;
+                               <span class = "pay_month"> 0&times;24</span>
+                           </dd>
+                           <dd class="Girl-area-price price_div" style = "display:none;">
+                               <span class = "price_title">售价</span>&yen;
+                               <span class = "price"> 0</span>
+                           </dd>
+                       </dl>               
+                   </li>
+
+                                      <li class = "edit_each_click origin_add swiper-slide" data-edit = "landscape_content" data-uri = "" sku = "" label = "">
+                       <dl>
+                           <dt class="Girl-area-dt1 img_url"></dt>
+                           <dd class = "main_title">主标题</dd>
+                           <dd class="Girl-area-price pay_month_div">
+                               <span class = "pay_month_title">月供</span>&yen;
+                               <span class = "pay_month"> 0&times;24</span>
+                           </dd>
+                           <dd class="Girl-area-price price_div" style = "display:none;">
+                               <span class = "price_title">售价</span>&yen;
+                               <span class = "price"> 0</span>
+                           </dd>
+                       </dl>               
+                   </li>
+           </ul>     
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swipe_button" style = "top:40%;display:none;opacity:0;"></div>
+            <div class="swiper-button-prev swipe_button" style = "top:40%;display:none;opacity:0;"></div>
+       </div>
+  </div>
+
+  ##竖向商品楼层 t15
+  <div class="div1 index-list template drop_item cancel_drag" data-tpl = "t15" style="height:750px">
+        <nav>
+            <div class="swiper-container" style = "height:30px;margin:5px;">
+                <ul style="height:30px" class = "edit_each_click swiper-wrapper vertical_title_ul" data-edit = "vertical_floor_header">
+                  <li class = "orientation_header_li index-active" data-distinct = "part1">标题一</li>
+                </ul>
+                <!-- Add Arrows -->
+                ## <div class="swiper-button-next swipe_button" style = "top:30%;display:none;opacity:0;"></div>
+                ## <div class="swiper-button-prev swipe_button" style = "top:30%;display:none;opacity:0;"></div>
+            </div>
+        </nav>
+        <article>
+            <div class = "vertical_each_contentList">
+                <ul class = "orientation_drag orientation_content_list" data-distinct = "part1">
+                    <li class = "edit_each_click" data-edit = "vertical_floor" data-uri = "">
+                        <a class="shouji1 img_url"></a>
+                        <dl class = "goods_module" sku = "">
+                            <dt class = "main_title">主标题</dt>
+                            <dt class = "side_title">副标题</dt>
+                            <dd class = "pay_month_div">
+                              <span class = "pay_month_title">月供</span>&yen;
+                              <span class = "pay_month">0&times;24</span>
+                            </dd>
+                            <dd class = "price_div" style = "display:none;">
+                              <span class = "price_title">售价</span>&yen;
+                              <span class = "price">
+                                 1200
+                              </span>
+                            </dd>
+                        </dl>
+                    </li>
+                    <div class="orientation_content_add tc">
+                        <i class="fa fa-plus-square"></i>
+                    </div>
+                </ul>
+            </div>
+        </article>
+  </div>
+
+  <div style="clear:both;"></div>
+
+  ## t16 楼层分割线
+  <div class="div1 A_line template drop_item edit_each_click" data-tpl = "t16">
+      <div class="A_line_div"></div>
+  </div>
+  <div class="tc" style="margin-top:30px;">
+    没有了
+  </div>
+</div>

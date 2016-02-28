@@ -1,0 +1,61 @@
+@import "./index.scss";
+html{
+	overflow:scroll;
+}
+#dropzone{
+	width: 418px;
+    max-width: 640px;
+    margin: auto;
+    .drop_item{
+    	border:0px solid white !important;
+    	padding:0px !important;
+    }
+    .remove{
+    	display:none !important;
+    }
+}
+.phone_like{
+	margin:auto;
+	width:418px !important;
+	.carousel_container{
+		height:228px !important;
+	}
+}
+.swipe_button{
+	display:none !important;
+}
+.QR_code{
+	 width:200px;
+	 height:200px;
+	 background:red;
+	 position:fixed;
+	 right:20px;
+	 top:200px;
+}
+
+.phone_like{
+	.glyphicon-chevron-right, .glyphicon-chevron-left{
+       display:none !important;
+	}
+}
+
+.t15_img_url{
+	background-size:contain !important;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.index_t9 .img_url{
+	background-size:contain !important;
+}
+
+[data-tpl=t12]{
+	height:180px !important;
+	.img_url{
+		height:170px;
+	}
+}
+
+.t8_right_img{
+	background-size:contain !important;
+}

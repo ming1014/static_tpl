@@ -1,0 +1,32 @@
+<div class="content table-responsive table-full-width padding_none">
+    <table class="table table-hover table-striped">
+        <thead>
+            <tr>
+  		        <th class="percent_3">图片缩略图</th>
+              <th class="percent_4">跳转地址</th>
+              <th class="percent_3">操作</th>
+		        </tr>
+        </thead>
+        <tbody class="edit_sort_zone">
+            {{#each data}}
+                <tr class="row each_list tr_sortable">
+                	<td class="percent_3">
+                	     <img  class="cate_img" src="{{pic_url}}" class="nav_img">
+                       <input type="file" class="img_upload" id="file" name = "file"/>
+                	</td>
+                	<td class="percent_4">
+                       <input type="text"  class="cate_uri" value="{{uri}}" id = "file" name = "file"/>
+                	</td>
+                	<td class="percent_3">
+                       <i class="fa {{lock_status}} switch_lock" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="{{lock_title}}" style = "display:none;"></i>
+                       <i class="fa fa-plus-square"></i>
+                       <i class="fa fa-minus-square"></i>
+                    </td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+
+<button class="btn btn-info edit_confirm fr">确定</button>
+<button class="btn btn-warning edit_quit fr">取消</button>

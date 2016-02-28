@@ -1,0 +1,20 @@
+{{#each data}}
+	<li class="edit_each_click landscape_render origin_add swiper-slide" data-edit="landscape_content" style="border: 0px;" data-uri = "{{uri}}" sku = "{{id}}">
+	    <dl>
+	        <dt class="Girl-area-dt1 img_url" style = "background:url({{picUri}});background-size:contain;background-position:center;background-repeat:no-repeat;"></dt>
+	        <dd class = "main_title">{{name}}</dd>
+	        <dd class="Girl-area-price pay_month_div">
+		        <span class = "pay_month_type">月供</span>
+		        <span>
+		           ¥<span class = "pay_month">{{monthPayment}}</span>
+		        </span>
+	        </dd>
+	        <dd class="Girl-area-price total_price_div" style = "display:none;">
+		          <span class = "pricestyle">{{price_title}}</span>
+		        <span>
+		           ¥<span class = "price">{{price}}</span>
+		        </span>
+	        </dd>
+	    </dl>
+	</li>
+{{/each}}

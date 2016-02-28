@@ -1,0 +1,13 @@
+ {{!--     类目t1 --}}
+<div class="div1 first-list template drop_item edit_each_click index_t1" data-tpl = "t1" data-edit = "category" data-toggle='tooltip' title = "类目模板" appId = "{{data.appId}}">
+   <ul>
+       {{#each data.content}}
+           <li data-uri = "{{uri}}" lock-status = "{{isLocked}}">
+              <a class="first-list-images1 cate_img" style = "background:url({{picUri}});background-size:80%;background-position:center center;background-repeat:no-repeat;"></a>
+              <span>{{mainTitle}}</span>
+           </li>
+       {{/each}}
+       <div style = "clear:both"></div>
+   </ul>
+   <button type="button" class="btn btn-default btn-xs remove"><span class="glyphicon glyphicon-trash"></span></button>
+</div>

@@ -1,0 +1,8 @@
+{{!-- ##1+1图片广告位 t6 --}}
+  <div id="div_ad_2pics" data-tpl = "t6" class="template drop_item index_t6" style="background:#fff;" appId = "{{data.appId}}">  
+      {{#each data.content}}
+        <img class="ad_2pics_l edit_each_click" data-edit = "two_samll_pic" data-uri = "{{uri}}" src="{{picUri}}" alt="">
+      {{/each}}
+      <div class = "t6_clear_both" style = "clear:both;"></div>
+      <button type="button" class="btn btn-default btn-xs remove"><span class="glyphicon glyphicon-trash"></span></button>
+  </div>

@@ -1,0 +1,89 @@
+{
+	"packs":[
+	        {
+	        	"reg": "/**/*.scss",
+	            "useDomain": true,
+	        	"release": "/static/${timestamp}/$&"
+	        },
+	        {
+	        	"reg": "/**/*.css",
+	            "useDomain": true,
+	        	"release": "/static/${timestamp}/$&"
+	        },
+			{
+	        	"reg": "/src/js/**/lib.js",
+	            "isMod": false,
+	            "useDomain": true,
+	        	"release": "/static/${timestamp}/$&"
+	        },
+	        {
+	        	"reg": "/src/js/**/lib-debug.js",
+	            "isMod": false,
+	            "useDomain": true,
+	        	"release": "/static/${timestamp}/$&"
+	        },
+			{
+	        	"reg": "/src/js/**/index.js",
+	            "isMod": false,
+	            "useDomain": true,
+	        	"release": "/static/${timestamp}/$&"
+	        },
+	        {
+	        	"reg": "/src/js/**/**.js",
+	            "isMod": true,
+	            "useDomain": true,
+	        	"release": "/static/${timestamp}/$&"
+	        },
+	        {
+	        	"reg":"/src/js/**/*.json",
+	        	"isJsLike": true,
+	            "useDomain": true,
+	        	"release": "/static/${timestamp}/$&"
+	        },
+	        {
+                "reg" : "/**/**.tpl",
+                "isJsLike" : true,
+                "isMod": false,
+	            "useDomain": true,
+                "release" : "/static/${timestamp}/$&"
+            },
+	        {
+	        	"reg":"/src/css/font/(.*.(?:font))/i",
+	        	"release":"/static/${timestamp}/$&"
+	        },
+	        {
+	        	"reg": "/**/*.jpg",
+	        	"release": "/static/${timestamp}/$&"
+	        },
+	        {
+	        	"reg": "/**/*.png",
+	        	"release": "/static/${timestamp}/$&"
+	        },
+	        {
+	        	"reg": "/**/*.gif",
+	        	"release": "/static/${timestamp}/$&"
+	        },
+	        {
+	        	"reg": "/conf/**.json",
+	        	"release": false
+	        },
+	        {
+	        	"reg": "README.md",
+	        	"release": false
+	        },
+	        {
+	        	"reg":"package.json",
+	        	"release": false
+	        },
+	        {
+	        	"reg": "/.*/",
+	        	"release": false
+	        }
+	],
+	"domain":{
+		"**.js": "http://test.st.ufenqi.com",
+		"**.css": "http://test.st.ufenqi.com",
+		"imgage": "http://test.st.ufenqi.com",
+		"**.tpl":"http://test.st.ufenqi.com"
+	}
+}

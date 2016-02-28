@@ -1,0 +1,6 @@
+<select style= "position:absolute;top:40px;left:10px;" class = "each_select">
+  <option value ="" picUri = "" uri = "">自定义</option>
+  {{#each data}}
+     <option value ="{{title}}" picUri = "{{picUri}}" uri = "{{uri}}">{{title}}</option>
+  {{/each}}
+</select>

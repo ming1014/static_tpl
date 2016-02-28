@@ -1,0 +1,301 @@
+
+<!-- wjl gai  -->
+<div class="top">
+    <ul class="nav">
+        <li>
+            <a href="#">
+                <i class="fa fa-file-image-o"></i>
+                <p class="tc">纯图</p>
+            </a>            
+        </li>
+        <li>
+            <a href="#">
+                <i class="fa fa-file-video-o"></i>
+                <p class="tc">图文</p>
+            </a>            
+        </li>
+ 
+    </ul> 
+</div>
+
+<div class="main clearfix">
+   ##1+2图文
+   <div class="div1 template drop_item" style="height:auto;"
+      data-edit = "picture_text" data-container="body" data-toggle="popover" data-placement="right" 
+     >
+       <div class="div1-left">
+              <dl>
+                  <dt>保湿膜力 水润到底</dt>
+                  <dd>茉莉蔻保湿系列</dd>
+              </dl>
+           <div class="div1-left-bottom">
+               <div class="div1-left-bottom1"><img src="http://cdn.ufenqi.com/cms/img/sy3.png"></div>
+               <div class="div1-left-bottom2"><img src="http://cdn.ufenqi.com/cms/img/sy2.png"></div>
+           </div>
+       </div>
+       <div class="div1-right">
+           <div class="div1-right-top"><div class="t1">
+               <dl>
+                   <dt>金盏花护手霜</dt>
+                   <dd>精心呵护您双手</dd>
+                   <dd class="dd">月供<span>&yen;128&times;24</span></dd>
+               </dl>
+           </div><div class="t2"></div></div>
+           <div class="div1-right-bottom"><div class="t3">
+               <dl>
+                   <dt>水润玫瑰乳液</dt>
+                   <dd>保湿 滋润</dd>
+                   <dd class="dd">月供<span>&yen;181&times;24</span></dd>
+               </dl>
+           </div><div class="t4"></div></div>
+       </div>
+       <div style="clear:both;"></div>
+   </div>
+   ## 1+1图文 
+   <div class="div1 rose template drop_item" data-edit = "picture">
+       <div class="rose-left" >
+       <dl>
+           <dt>玫瑰箐华水</dt>
+           <dd>保湿 滋润</dd>
+           <dd  class="rose-dd">月供<span>&yen;162&times;24</span></dd>
+       </dl>
+       <a></a>
+       </div>
+       <div class="rose-right">
+           <dl>
+           <dt>草本眼部精.</dt>
+           <dd>保湿 滋润</dd>
+           <dd class="rose-dd">月供<span>&yen;139&times;24</span></dd>
+       </dl>
+       <a></a>
+
+       </div>  
+       <div style="clear:both;"></div>
+   </div>
+    ##横排4个图文
+   <div class="div1 clothes template drop_item" data-edit ="Vertical-heading">
+       <ul>
+           <li>
+           <dl>
+               <dt>DC</dt>
+               <dd>套头毛衣</dd>
+           </dl>
+           <a class="clothes-images1"></a>
+           </li>
+           <li>
+           <dl>
+               <dt>UNITED</dt>
+               <dd>长袖T恤</dd>
+           </dl>
+           <a  class="clothes-images2"></a>
+           </li>
+           <li><dl>
+               <dt>Preppy El.</dt>
+               <dd>迷彩束口裤</dd>
+           </dl>
+           <a  class="clothes-images3"></a>
+           </li>
+           <li>
+               <dl>
+               <dt>阿迪达斯</dt>
+               <dd>防风服</dd>
+           </dl>
+           <a class="clothes-images4"></a>
+           </li>
+       </ul>
+   </div>
+    ##横排3个图文
+   <div class="div1 watch template drop_item" style="height:150px" data-edit ="Lateral-floor">
+       <ul>
+           <li>
+           <dl>
+               <dt>合作限定手表</dt>
+               <dd>铁三角挂耳式</dd>
+           </dl>
+           <a class="watch-images1"></a>
+           </li>
+           <li>
+           <dl>
+               <dt>Neff运动手表</dt>
+               <dd>经典款式</dd>
+           </dl>
+           <a  class="watch-images2"></a>
+           </li>
+           <li><dl>
+               <dt>Slow涂鸦手表</dt>
+               <dd>黑色通用</dd>
+           </dl>
+           <a  class="watch-images3"></a>
+           </li>
+           
+       </ul>
+   </div>
+   ##坑位导航
+   <div class="div1 phone-list template drop_item" style="height:auto;width:40%;" data-edit = "Carousel-floor">
+       <div class="phone-list-content">
+       <dl>
+           <dt>什么值得分期购?</dt>
+           <dd>看 看 同 学 们 都 买 了 啥</dd>
+       </dl>
+       <ul>
+           <li><a><span>苹果 6s</span></a><a><span>OPPO R7</span></a></li>
+           <li><a><span>小米 4</span></a><a><span>乐视 MAX</span></a></li>
+           <li><a><span>魅族MX5</span></a><a><span>联想 乐柠</span></a></li>
+       </ul>
+
+       </div>
+   </div>
+   ##类目
+   <div class="div1 first-list template drop_item" data-edit = "category">
+       <ul>
+           <li><a class="first-list-images1"></a><span>手机通讯</span></li>
+           <li><a class="first-list-images2"></a><span>电脑平板</span></li>
+           <li><a class="first-list-images3"></a><span>充值</span></li>
+           <li><a class="first-list-images4"></a><span>更多</span></li>
+           <li><a class="first-list-images3"></a><span>充值</span></li>
+       </ul>
+   </div>
+   ##头条
+   <div class="div1 template Staging-headlines drop_item" style="height:auto" data-edit = "header_ad">
+       <p><span>分期白条</span>借款提现 (U基金) 最高可借贷5000元啦！</p>
+   </div>
+  ##横向商品楼层
+  <div class="div1 Girl-area template drop_item" style="height:270px;">
+       <p style="height:30px;line-height:30px;">女生专区<span>></span></p>
+       <a></a>  
+       <ul>
+           <li>
+               <dl>
+                   <dt class="Girl-area-dt1"></dt>
+                   <dd>雪花秀洁颜泡</dd>
+                   <dd class="Girl-area-price">月供<span> &yen;63&times;24</span></dd>
+               </dl>               
+           </li>
+           <li>
+               <dl>
+                   <dt class="Girl-area-dt2"></dt>
+                   <dd>香奈儿邂逅香水</dd>
+                   <dd class="Girl-area-price">月供<span> &yen;78&times;24</span></dd>
+               </dl>                      
+               </li>
+           <li>
+               <dl>
+                   <dt  class="Girl-area-dt3"></dt>
+                   <dd>雅诗兰黛活性</dd>
+                   <dd class="Girl-area-price">月供<span> &yen;47&times;24</span></dd>
+               </dl>
+               
+           </li>
+       </ul>
+  </div>
+  ##竖向商品楼层
+  <div class="div1 index-list template drop_item" style="height:750px" data-edit = "header_ad">
+        <nav>
+        <ul style="height:30px">
+          <li class="index-active">手机</li>
+          <li>电脑</li>
+          <li>数码</li>
+          <li>数码</li>
+          <li>美妆</li>
+          <li>日用</li>
+          <li>奢侈</li>
+          
+        </ul>
+        </nav>
+
+        <article>
+        <div>
+        <ul>
+          <li><a class="shouji1"></a><dl><dt>OPPO R7 Plus全网通版</dt><dt>移动/联通/电信三网4G</dt><dd>月供<span>&yen;138&times;24</span></dd></dl></li>
+          <li><a class="shouji2"></a><dl><dt>OPPO R7 Plus全网通版</dt><dt>移动/联通/电信三网4G</dt><dd>月供<span>&yen;359&times;24</span></dd></dl></li>
+        </ul>
+        </div>
+        <div>
+          <ul>
+          <li class="zdfq">
+          <dl>
+           <dt>什么值得分期购?</dt>
+           <dd>看 看 同 学 们 都 买 了 啥</dd>
+       </dl>
+       <ul>
+           <li><a><span>苹果 6s</span></a><a><span>OPPO R7</span></a></li>
+           <li><a><span>小米 4</span></a><a><span>乐视 MAX</span></a></li>
+           <li><a><span>魅族MX5</span></a><a><span>联想 乐柠</span></a></li>
+       </ul>
+       </li>
+          <li><a class="shouji3"></a><dl><dt>OPPO R7 Plus全网通版</dt><dt>移动/联通/电信三网4G</dt><dd>月供<span>&yen;259&times;24</span></dd></dl></li>
+        </ul>
+        </div>
+        <div>
+          <ul>
+          <li><a class="shouji4"></a><dl>
+          <dt>OPPO R7 Plus全网通版</dt>
+          <dt>移动/联通/电信三网4G</dt>
+          <dd>月供<span>&yen;34&times;24</span></dd>
+          </dl></li>
+          <li><a class="shouji5"></a><dl><dt>OPPO R7 Plus全网通版</dt><dt>移动/联通/电信三网4G</dt><dd>月供<span>&yen;104&times;24</span></dd></dl></li>
+        </ul>
+        </div>
+          
+
+        </article>
+  </div>
+  ##广告位低
+  <div id="div_ad_90perc" class="template drop_item" style="height:auto !important;background:#fff;">
+      <img class="ad_90perc" src="http://cdn.ufenqi.com/cms/img/AD1_90.png" alt="">
+  </div>
+  ##广告位高
+  <div id="div_ad_96perc" class="template drop_item" style="background:#fff;">
+      <img class="ad_96perc" src="http://cdn.ufenqi.com/cms/img/AD_99.png" alt="">
+  </div>
+  ##1+1图片
+  <div id="div_ad_2pics" class="template drop_item" style="background:#fff;">
+      <img class="ad_2pics_l" src="http://cdn.ufenqi.com/cms/img/ad_left.png" alt="">
+      <img class="ad_2pics_r" src="http://cdn.ufenqi.com/cms/img/ad_right.png" alt="">
+  </div>
+  ##坑位图片
+  <div id="div_ad_inPits_l" class="template drop_item">
+      <img class="ad_inPits" src="http://cdn.ufenqi.com/cms/img/ad_inPits.png" alt="">
+  </div>
+  <div style="clear:both;"></div>
+  ##轮播
+  <div class="template drop_item" data-edit = "carousel">
+      <div id="carousel_tpl" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="http://cdn.ufenqi.com/cms/img/slide01.jpg" alt="...">
+            <div class="carousel-caption">
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://cdn.ufenqi.com/cms/img/slide02.jpg" alt="...">
+            <div class="carousel-caption">  
+            </div>
+          </div>
+      
+        </div>
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+  </div>
+   <div class="tc" style="margin-top:30px;">
+      没有了
+   </div>
+
+
+</div>

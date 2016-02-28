@@ -1,0 +1,42 @@
+
+<div class="content table-responsive table-full-width padding_none">
+	<div class="picture_text_content">
+		<article>
+			<form class="form-horizontal ui-sortable" role="form">
+			    <div class="form-group header-input" data-distinct = "part1">
+				    <label  class="col-sm-3 control-label" for="ds_host">
+						    标签
+						    <span class="switch_index">1</span>
+				    </label>
+				    <div class="col-sm-5">
+						<input class="form-control" id="ds_host" type="text">
+				    </div>
+				    <div class="col-sm-4" style= "height:40px;">
+				    </div> 
+				    <div class="col-sm-3 control-label" for="ds_host">
+                        批量sku
+				    </div> 
+				    <div class="col-sm-5" style = "height:40px;">
+				        <textarea class="form-control" rows="3" placeholder = "多个sku以逗号隔开"></textarea>
+				    </div> 
+				    <div class="col-sm-4 switch switch-large pointer orientation_header_del">
+					{{!-- 	<i class="fa fa-pencil-square-o orientation_header_edit"></i> --}}
+						<i class="fa fa-minus-square"></i>
+				    </div> 
+				</div>
+				
+			    <div class="form-group">
+				    <label  class="col-sm-3 control-label" for="ds_host"></label>
+				    <div class="col-sm-5 pointer" id = "orientation_header_add" >
+				         <label>添加切换页</label><i class="fa fa-plus-square"></i>
+				    </div>
+				</div>
+
+			</form>
+		</article>
+	</div>
+</div>
+
+
+<button class="btn btn-info edit_confirm fr">确定</button>
+<button class="btn btn-warning edit_quit fr">取消</button>

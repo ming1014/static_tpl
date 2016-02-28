@@ -1,0 +1,420 @@
+@import "./header.scss";
+@import "../../outer/bootstrap-datetimepicker.scss";
+$nav_background:#3c8dbc;
+$body_background:#ecf0f5;
+
+html{
+	height:100%;
+	overflow:hidden;
+	body{
+		background:$body_background;
+	}
+}
+.main-panel {
+  width: calc(100% - 430px);
+  margin-right:-30px;
+  .container-fluid{
+  	margin-right: -30px;
+  }
+}
+
+.navbar-fixed{
+	background-color:$nav_background;
+	margin-bottom:0px;
+    .navbar-brand,i,li a{
+    	color:white !important;
+    }
+}
+.sidebar{
+  overflow: hidden;
+  width: 460px;
+  .sidebar-wrapper {
+		width:70px;
+		float:left;
+
+   }
+   	.nav {
+		    margin-top: 0px;
+		    li a{
+		        margin:0px;
+			    width:70;
+			    @include c3(border-radius,0px);
+			    padding:0px;
+		    }
+		    .active a{
+		    	background:rgba(255,255,255,0.13) !important;
+		    	width:70px;
+		    }
+		    i{
+				margin-top: 20px;
+				font-size: 30px;
+				margin-bottom: 10px;
+				width: 50px;
+				margin-left: 10px;
+		    }
+		    p{
+		    	font-size:14px;
+		    }
+		}
+   .content{
+	    z-index: 2015;
+	    position: absolute;
+	    left: 70px;
+	    padding: 0px;
+	    padding-right: 0px;
+	    border-radius: 0px;
+	    height: 100%;
+        background-size: 150% 150%;
+	    background: rgba(255,255,255,0.13);
+	    width:390px;
+	    .container-fluid{
+	    	padding:0px;
+	    }
+   }
+
+}
+
+.tc{
+	text-align: center;
+}
+
+
+
+.top{
+	width:100%;height:90px;
+    ul li{
+    	list-style:none;
+    	float:left;
+    }
+}
+
+.main{
+	max-height:600px;
+    width:100%;
+    overflow:auto;
+    .div1{
+    	width: 80%;
+		margin:15px 10%;
+		height:100px;background:#fff;
+    }
+}
+
+.div-1, #dropzone .template{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 10px;
+    // height: 100px;
+    color:#333;
+    position:relative; 
+}
+
+.col-md-12{
+   overflow:auto;
+}
+
+.phone_like{
+    width: 388px;
+    padding-top: 15px;
+    background: white;
+    min-height:500px;
+}
+
+
+#dropzone {
+    // padding: 20px;
+    min-height: 100px;
+    margin-bottom: 20px;
+    z-index: 0;
+    border-radius: 10px;
+    .drop_item {
+	    cursor: pointer;
+	    margin-bottom: 10px;
+	    background-color: rgb(255, 255, 255);
+	    padding: 5px 10px;
+	    border-radius: 3px;
+	    border: 1px solid rgb(204, 204, 204);
+	    position: relative;
+	    .remove {
+		    position: absolute;
+		    top: 4px;
+		    right: 4px;
+		}
+	}
+}
+
+.div1{padding:1% 1% 1% 1%;width:80%;}
+.div1 dl{text-align:center;}
+.div1 dt{color:#666;font-size:12px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;text-align:center;}
+.div1 dd{color:#999;font-size:10px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;text-align:center;}
+
+.div1-left{width:50%;height:150px;float:left;margin-right:1px;}
+.div1-right{width:49%;height:150px;float:left;}
+.div1-left-bottom{width:100%;height:65%;}
+.div1-left-bottom1{height:100%;width:40%;float:left;padding-top:10%;}
+.div1-left-bottom1 img {width:100%;@include c3(border-radius,50px);}
+.div1-left-bottom2{height:100%;width:60%;float:left}
+.div1-left-bottom2 img {width:100%;}
+.div1-right .div1-right-top{height:50%;width:100%;}
+.div1-right .div1-right-top .t1{width:60%;height:100%;float:left;}
+.div1-right .div1-right-top .t2{width:40%;height:100%;float:left;background:url(http://cdn.ufenqi.com/cms/img/120x120.png) no-repeat;background-size:contain; }
+.div1-right .div1-right-bottom{height:49%;width:100%;margin-top:1px;}
+.div1-right .div1-right-bottom .t3{width:60%;height:100%;float:left;}
+.div1-right .div1-right-bottom .t4{width:40%;height:90%;float:left;background:url(http://cdn.ufenqi.com/cms/img/120x120.png);background-size:contain; }
+.div1-right .div1-right-top .t1 dl dd.dd{margin-top:5px;}
+.div1-right .div1-right-bottom .t3 dl dd.dd{margin-top:5px}
+.div1-right .div1-right-top .t1 dl dd.dd span{color:red}
+.div1-right .div1-right-bottom .t3 dl dd.dd span{color:red}
+
+.rose{padding-top:10px;}
+.rose .rose-left{height:100%;width:50%;float:left;margin-right:1px;}
+.rose .rose-right{height:100%;width:49%;float:left;}
+.rose-left dl{float:left;width:55%;}
+.rose a{width:45%;height:87.5%;float:left;background:url(http://cdn.ufenqi.com/cms/img/184.jpg) center center no-repeat;background-size:100% 80%;}
+.rose .rose-right dl{float:left;width:55%;text-align: center;}
+.rose dd.rose-dd{margin-top:20px;}
+.rose dd.rose-dd span{color:red;font-size: 12px;}
+.rose dl{margin-bottom:0px;}
+
+.clothes ul{width:100%;height:100%;padding-left:0px; text-align:center;padding-bottom: 10px;}
+.clothes ul li{width:25%;height:100%;float: left;list-style:none;}
+.clothes ul li dl{margin-bottom: 0px;}
+.clothes ul li dl dt{white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;}
+.clothes ul li dl dd{white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;}
+.clothes ul li a{display:block;width:75%;height:69.5%;background:red;margin:0 auto;}
+.clothes ul li a.clothes-images1{background:url(http://cdn.ufenqi.com/cms/img/120x120.png) center center no-repeat;background-size:contain;}
+.clothes ul li a.clothes-images2{background:url(http://cdn.ufenqi.com/cms/img/120x120.png) center center no-repeat;background-size:contain;}
+.clothes ul li a.clothes-images3{background:url(http://cdn.ufenqi.com/cms/img/120x120.png) center center no-repeat;background-size:contain;}
+.clothes ul li a.clothes-images4{background:url(http://cdn.ufenqi.com/cms/img/120x120.png) center center no-repeat;background-size:contain;}
+
+
+.watch ul{width:100%;height:100%;padding-left:0px;text-align:center;}
+.watch ul li{width:33%;height:100%;float:left;list-style:none;margin-left:1px;}
+.watch ul li:last-Child{margin-left:0px;}
+.watch ul li dl{margin-bottom:5%;}
+.watch ul li dl dt{padding-top:5%}
+.watch ul li dl dd{}
+.watch ul li a{display:block;height:60%;width:80%;margin:0 auto;}
+.watch ul li a.watch-images1{background:url(http://cdn.ufenqi.com/cms/img/190x190.png) center center no-repeat;background-size:contain;}
+.watch ul li a.watch-images2{background:url(http://cdn.ufenqi.com/cms/img/190x190.png) center center no-repeat;background-size:contain;}
+.watch ul li a.watch-images3{background:url(http://cdn.ufenqi.com/cms/img/190x190.png) center center no-repeat;background-size:contain;}
+  
+
+.phone-list{padding:1%;}
+.phone-list .phone-list-content{height:200px;width:100%;}
+.phone-list .phone-list-content dl{padding-left:5%;width:100%;margin-bottom: 0px}
+.phone-list .phone-list-content dl dt{font-size:16px;color:#999;}
+.phone-list .phone-list-content dl dd{margin-top:2%;margin-bottom:2%;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;}
+.phone-list .phone-list-content ul{padding-left:0px;width: 100%;height:75%;}
+.phone-list .phone-list-content ul li{height:30%;margin-bottom: 3%;list-style:none;}
+.phone-list .phone-list-content ul li a{display:block;width:48%;float:left;margin-right:2%;height:100%;background:#eee;border-radius:3px;text-align:center;}
+.phone-list .phone-list-content ul li a span{display:block;margin-top:20%;color:#666;font-size:12px;}
+
+.A_line{ 
+    height:20px !important;
+    padding:9px 0;
+    .A_line_div{
+        width:100%;
+        height:0px;
+        border:1px solid #dadada;
+    }
+}
+
+
+
+.first-list ul{padding-left:0px;width:100%;height:100%;overflow:hidden;}
+.first-list ul li{list-style:none;float:left;width:25%;height:100%;}
+.first-list ul li a{display: block;width:100%;height:70%;margin-bottom: 2%}
+.first-list ul li a.cate_img{background:url(http://cdn.ufenqi.com/cms/img/120x120.png) center center no-repeat;background-size:contain;width:70px;height:70px; @include c3(border-radius,50%);}
+.first-list ul li span{display: block;text-align:center;color:#333;}
+
+.index-list{}
+.index-list nav ul{padding:0px;margin:0px;overflow:hidden;}
+.index-list nav ul li{padding:3px 5px 5px 5px;float:left;color:#333;}
+.index-list nav ul li.index-active{border-bottom:2px solid red;}
+.index-list article{width:100%;height:90%;margin-top:1%;}
+.index-list article div{width:100%;height:30%;margin-bottom:2%;}
+.index-list article div ul{padding-left:0px;height:100%;}
+.index-list article div ul li{list-style:none;float:left;width:49%;margin-right:1%;height:100%;}
+.index-list article div ul li:last-Child{margin-right:0px}
+.index-list article div ul li a.shouji1{display:block;width:90%;margin-left:5%;height:70%;background:url(http://cdn.ufenqi.com/cms/img/288x288.jpg) center center no-repeat;background-size:contain;}
+.index-list article div ul li a.shouji2{display:block;width:90%;margin-left:5%;height:70%;background:url(http://cdn.ufenqi.com/cms/img/190x190.png) center center no-repeat;background-size:contain;}
+.index-list article div ul li a.shouji3{display:block;width:100%;height:70%;background:url(http://cdn.ufenqi.com/cms/img/190x190.png) center center no-repeat;background-size:contain;}
+.index-list article div ul li a.shouji4{display:block;width:100%;height:70%;background:url(http://cdn.ufenqi.com/cms/img/190x190.png) center center no-repeat;background-size:contain;}
+.index-list article div ul li a.shouji5{display:block;width:100%;height:70%;background:url(http://cdn.ufenqi.com/cms/img/190x190.png) center center no-repeat;background-size:contain;}
+.index-list article div ul li dl{margin-top:5px;}
+.index-list article div ul li dl dt{text-align:left;}
+.index-list article div ul li dl span{color:red;font-size:14px;}
+.index-list article div ul li dl dd{display:block;text-align:left;}
+.index-list .zdfq dl{padding-left:5%;width:100%;margin-bottom: 0px}
+.index-list .zdfq dl dt{color:#999;}
+.index-list .zdfq dl dd{margin-top:2%;margin-bottom:2%;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;}
+.index-list .zdfq ul{padding-left:5px;width: 100%;height:75%;}
+.index-list .zdfq ul li{height:30%;width:100%;margin-bottom: 3%;list-style:none;}
+.index-list .zdfq ul li a{display:block;width:48%;float:left;margin-right:2%;height:100%;background:#eee;border-radius:3px;text-align:center;}
+.index-list .zdfq ul li a span{display:block;margin-top:20%;color:#666;font-size:12px;}
+
+
+.Staging-headlines p{color: #666;width:100%;font-size: 12px;margin-bottom: 0px;}
+.Staging-headlines p span{padding:1% 1% 1% 1%;margin-right:2%;background:red;color:#fff;}
+
+
+
+.Girl-area{padding: 0px;}
+.Girl-area p{color:#666;font-size: 16px;font-weight: bold;margin-bottom: 0px;}
+.Girl-area p span{color:#ccc;float: right;}
+.Girl-area a{display:block;width:100%;height:20%;background:url(http://cdn.ufenqi.com/cms/img/banner.png) no-repeat;background-size:100% 100%;margin-bottom: 2%;}
+.Girl-area ul {
+	padding-left:0px;width:100%;height:95%;position:relative;
+	.left_arrow{
+		position:absolute;
+		left:5px;
+		top:40%;
+		i{
+			font-size:40px;
+			color:#999;
+		}
+	}
+	.right_arrow{
+		position:absolute;
+		right:5px;
+		top:40%;
+		i{
+			font-size:40px;
+			color:#999;
+		}
+	}
+
+
+}
+.Girl-area ul li{float:left;list-style:none;width:31% !important;height:100%;margin-right: 2% !important;border:1px solid #eee;}
+.Girl-area ul li:last-Child{margin-right: 0;}
+.Girl-area ul li dl{display: block;height:100%;width: 100%;}
+.Girl-area ul li dl dt{display: block;height:70%;width: 100%;}
+.Girl-area ul li dl dt.Girl-area-dt1{background:url(http://cdn.ufenqi.com/cms/img/190x190.png) center center no-repeat;background-size:contain;margin-top: 10px;}
+.Girl-area ul li dl dt.Girl-area-dt2{background:url(http://cdn.ufenqi.com/cms/img/190x190.png) center center no-repeat;background-size:contain;}
+.Girl-area ul li dl dt.Girl-area-dt3{background:url(http://cdn.ufenqi.com/cms/img/190x190.png) center center no-repeat;background-size:contain;}
+.Girl-area ul li dl dd{white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;display:block;padding-left:5%;width:100%;height:15%;background:#eee;font-size: 14px;}
+.Girl-area ul li dl dd.Girl-area-price{background:#fff;}
+.Girl-area ul li dl dd.Girl-area-price span{color:red;}
+
+
+    .swiper-container {
+        width: 100%;
+        height: 195px;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .append-buttons {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .append-buttons a {
+        display: inline-block;
+        border: 1px solid #007aff;
+        color: #007aff;
+        text-decoration: none;
+        padding: 4px 10px;
+        border-radius: 4px;
+        margin: 0 10px;
+        font-size: 13px;
+    }
+
+    .goods_module{
+    	padding-left:10px;
+    }
+
+
+[class^="icon-"],[class*=" icon-"]{display:inline-block;width:14px;height:14px;*margin-right:.3em;line-height:14px;vertical-align:text-top;background-image:url("/staticTpl/static/src/css/bin/fonts/glyphicons-halflings.png");background-position:14px 14px;background-repeat:no-repeat;margin-top:1px;}
+.icon-white,.nav-pills>.active>a>[class^="icon-"],.nav-pills>.active>a>[class*=" icon-"],.nav-list>.active>a>[class^="icon-"],.nav-list>.active>a>[class*=" icon-"],.navbar-inverse .nav>.active>a>[class^="icon-"],.navbar-inverse .nav>.active>a>[class*=" icon-"],.dropdown-menu>li>a:hover>[class^="icon-"],.dropdown-menu>li>a:hover>[class*=" icon-"],.dropdown-menu>.active>a>[class^="icon-"],.dropdown-menu>.active>a>[class*=" icon-"],.dropdown-submenu:hover>a>[class^="icon-"],.dropdown-submenu:hover>a>[class*=" icon-"]{background-image:url("../fonts/glyphicons-halflings-white.png");}
+
+.input-append,.input-prepend{margin-bottom:5px;font-size:0;white-space:nowrap;}.input-append input,.input-prepend input,.input-append select,.input-prepend select,.input-append .uneditable-input,.input-prepend .uneditable-input,.input-append .dropdown-menu,.input-prepend .dropdown-menu{font-size:14px;}
+.input-append input,.input-prepend input,.input-append select,.input-prepend select,.input-append .uneditable-input,.input-prepend .uneditable-input{position:relative;margin-bottom:0;*margin-left:0;vertical-align:top;-webkit-border-radius:0 4px 4px 0;-moz-border-radius:0 4px 4px 0;border-radius:0 4px 4px 0;}.input-append input:focus,.input-prepend input:focus,.input-append select:focus,.input-prepend select:focus,.input-append .uneditable-input:focus,.input-prepend .uneditable-input:focus{z-index:2;}
+.input-append .add-on,.input-prepend .add-on{display:inline-block;width:auto;height:25px;min-width:16px;padding:4px 5px;font-size:14px;font-weight:normal;line-height:20px;text-align:center;text-shadow:0 1px 0 #ffffff;background-color:#eeeeee;border:1px solid #ccc;}
+.input-append .add-on,.input-prepend .add-on,.input-append .btn,.input-prepend .btn,.input-append .btn-group>.dropdown-toggle,.input-prepend .btn-group>.dropdown-toggle{vertical-align:top;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+.input-append .active,.input-prepend .active{background-color:#a9dba9;border-color:#46a546;}
+.input-prepend .add-on,.input-prepend .btn{margin-right:-1px;}
+.input-prepend .add-on:first-child,.input-prepend .btn:first-child{-webkit-border-radius:4px 0 0 4px;-moz-border-radius:4px 0 0 4px;border-radius:4px 0 0 4px;}
+.input-append input,.input-append select,.input-append .uneditable-input{-webkit-border-radius:4px 0 0 4px;-moz-border-radius:4px 0 0 4px;border-radius:4px 0 0 4px;}.input-append input+.btn-group .btn:last-child,.input-append select+.btn-group .btn:last-child,.input-append .uneditable-input+.btn-group .btn:last-child{-webkit-border-radius:0 4px 4px 0;-moz-border-radius:0 4px 4px 0;border-radius:0 4px 4px 0;}
+.input-append .add-on,.input-append .btn,.input-append .btn-group{margin-left:-1px;}
+.input-append .add-on:last-child,.input-append .btn:last-child,.input-append .btn-group:last-child>.dropdown-toggle{-webkit-border-radius:0 4px 4px 0;-moz-border-radius:0 4px 4px 0;border-radius:0 4px 4px 0;}
+.input-prepend.input-append input,.input-prepend.input-append select,.input-prepend.input-append .uneditable-input{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}.input-prepend.input-append input+.btn-group .btn,.input-prepend.input-append select+.btn-group .btn,.input-prepend.input-append .uneditable-input+.btn-group .btn{-webkit-border-radius:0 4px 4px 0;-moz-border-radius:0 4px 4px 0;border-radius:0 4px 4px 0;}
+.input-prepend.input-append .add-on:first-child,.input-prepend.input-append .btn:first-child{margin-right:-1px;-webkit-border-radius:4px 0 0 4px;-moz-border-radius:4px 0 0 4px;border-radius:4px 0 0 4px;}
+.input-prepend.input-append .add-on:last-child,.input-prepend.input-append .btn:last-child{margin-left:-1px;-webkit-border-radius:0 4px 4px 0;-moz-border-radius:0 4px 4px 0;border-radius:0 4px 4px 0;}
+.input-prepend.input-append .btn-group:first-child{margin-left:0;}
+.label:empty{
+	display:block !important;
+}
+.icon-remove {
+    background-position: -312px 0;
+}
+.icon-th {
+    background-position: -240px 0;
+}
+
+.form_date, .form_time{
+	input{
+	    border-radius:0px !important;
+	    cursor:pointer;
+	    width:200px;
+	}
+}
+.datetimepicker{
+	visibility:visible !important;
+	opacity:1 !important;
+	display:none;
+}
+#div_ad_96perc .ad_96perc {
+    width: 100%;
+    height: 100%;
+}
+#div_ad_2pics .ad_2pics_l:nth-child(2) {
+    float: right;
+    margin-bottom:5px;
+}
+.ad_2pics_l {
+    height:100%;
+}
+.ad_90perc{
+	height:100%;
+}
+
+#dropzone .carousel_container{
+	height:228px !important;   
+}
+
+//新加 滑动栏增加标题
+
+.sidebar .Carousel_title{
+    text-align:left!important;
+    width:80%;
+    margin:0 auto;
+    color:#4a525b; 
+    font-weight:bold;
+    text-align:left;
+    background:#fff;   
+}
+
+.index_t15 article{
+	height:630px;
+	li{
+		border:0px solid red;
+	}
+}

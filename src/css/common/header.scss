@@ -1,0 +1,25 @@
+header{
+    margin-bottom:90px;
+    .top_header{
+	    height: 50px;
+	    width: 100%;
+	    position: fixed;
+	    top: 0px;
+	    left: 0px;
+	    background: rgba(0,0,0,0.1);
+	}
+}
+.live_preview{
+	margin-left: 270px;
+	a{
+		padding: 0px;
+        padding-top: 10px;
+        i{
+        	font-size: 40px;
+        }
+	}
+}
+
+#save_index{
+	cursor:pointer;
+}

@@ -1,0 +1,71 @@
+
+<div class="content table-responsive table-full-width padding_none start_page">
+    <table class="table table-hover table-striped">
+{{!--         <thead>
+            <tr>
+              <th class="percent_7">图片缩略图</th>
+              <th class="percent_3">操作</th>
+            </tr>
+        </thead> --}}
+        <tbody class="edit_sort_zone start_edit_zone"  adType = "{{data.adType}}" adId = "{{data.id}}">
+{{!--                 <tr class="row each_list tr_sortable">
+                  <td class="percent_7">
+                       <img  class="cate_img" src="{{pic_url}}" class="nav_img">
+                       <input type="file" class="img_upload" id="file" name = "file"/>
+                       <button class="start_btn">点击</button>图片大小:750*1334
+                  </td>
+                  <td class="percent_3">
+                       <i class="fa fa-lock switch_lock"></i>
+                       <i class="fa fa-plus-square"></i>
+                       <i class="fa fa-minus-square"></i>
+                    </td>
+                </tr> --}}
+
+                 <div class="control-group" style = "height:40px;">
+                      <label class="control-label" style = "float:left;margin-left:20px;">发布日期</label>
+                      <div class="controls input-append date index_page_date" data-date="" data-date-format="yyyy MM dd" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd" style = "float: left;margin-left: 90px;">
+                          <input size="16" class = "start_page_set_date" type="text" value="" readonly>
+                          <span class="add-on"><i class="icon-remove"></i></span>
+                          <span class="add-on"><i class="icon-th"></i></span>
+                      </div>
+                      <input type="hidden" id="dtp_input2" value="" /><br/>
+                </div> 
+                <div class="control-group" style = "height:40px;">
+                      <label class="control-label" style = "float:left;margin-left:20px;">发布时间</label>
+                      <div class="controls input-append date index_page_time" data-date="" data-date-format="hh:ii"  style = "float: left;margin-left: 90px;" data-link-field="dtp_input3" data-link-format="hh:ii">
+                          <input class = "start_page_set_time" size="16" type="text" value="" readonly>
+                          <span class="add-on"><i class="icon-remove"></i></span>
+                          <span class="add-on"><i class="icon-th"></i></span>
+                      </div>
+                      <input type="hidden" id="dtp_input3" value="" /><br/>
+                </div>
+
+
+                <div  class="form-group" style = "height:40px;">
+                    <label class="col-sm-3 control-label" for="ds_host">持续时间(秒）</label>
+                    <div class="col-sm-5">
+                        <input class="form-control ad_duration_time" id="ds_host" value = "{{data.executeTime}}" type="text">
+                    </div>
+                </div>
+
+
+                <div  class="form-group" style = "height:40px;">
+                    <label class="col-sm-3 control-label" for="ds_host">跳转地址</label>
+                    <div class="col-sm-5">
+                        <input class="form-control uri" id="ds_host" value = "{{data.adUri}}" type="text">
+                    </div>
+                </div>
+
+
+                <div  class="form-group" style = "height:auto;position:relative;">
+                   <img  class="cate_img index_img_upload" src="{{data.adPicUri}}">
+                   <input type="file" class="img_upload" id="file" name = "file"/>
+                   <button class="start_btn btn btn-primary">上传图片（750*1334）</button>
+                </div>
+
+
+          </div>
+        </tbody>
+    </table>
+</div>
+

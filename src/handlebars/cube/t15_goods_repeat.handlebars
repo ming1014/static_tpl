@@ -1,0 +1,20 @@
+
+      {{#each data}}
+      <li class = "edit_each_click" data-edit = "vertical_floor" data-uri = "{{uri}}">
+          <a class="shouji1 img_url" style = "background:url({{picUri}});background-size:80%;background-repeat:no-repeat;"></a>
+          <dl class = "goods_module" sku = "{{id}}">
+              <dt class = "main_title">{{name}}</dt>
+              <dt class = "side_title">副标题</dt>
+              <dd class = "pay_month_div">
+                <span class = "pay_month_title">月供</span>&yen;
+                <span class = "pay_month">{{monthPayment}}</span>
+              </dd>
+              <dd class = "price_div" style = "display:none;">
+                <span class = "price_title">售价</span>&yen;
+                <span class = "price">
+                   {{price}}
+                </span>
+              </dd>
+          </dl>
+      </li>
+      {{/each}}

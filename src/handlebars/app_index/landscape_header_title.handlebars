@@ -1,0 +1,29 @@
+<div class="content table-responsive table-full-width padding_none">
+	<div class="picture_text_content">
+		<article>
+		   {{#each data}}
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+					    <label  class="col-sm-3 control-label" for="ds_host">楼层标题</label>
+					    <div class="col-sm-5">
+							<input class="form-control floor_title" value = "{{main_title}}" id="ds_host" type="text">
+					    </div>
+					</div>
+				</form>
+			    <form class="form-horizontal" role="form">
+					<div class="form-group">
+					    <label  class="col-sm-3 control-label" for="ds_host">跳转路径</label>
+					    <div class="col-sm-5">
+							<input class="form-control floor_more" id="ds_host" value="{{uri}}" type="text">
+					    </div>
+					    <label  class="col-sm-3 control-label" for="ds_host">(没有可不填)</label>
+					</div>
+				</form>
+			{{/each}}
+		</article>
+	</div>
+</div>
+
+
+<button class="btn btn-info edit_confirm fr">确定</button>
+<button class="btn btn-warning edit_quit fr">取消</button>

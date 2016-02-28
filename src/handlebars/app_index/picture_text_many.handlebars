@@ -1,0 +1,77 @@
+<div class="content table-responsive table-full-width padding_none">
+	<div class="picture_text_content">
+		<article>
+			<form class="form-horizontal" role="form">
+			    {{#each data}}
+					<div  class="form-group">
+						    <label class="col-sm-3 control-label" for="ds_host">跳转链接</label>
+						    <div class="col-sm-5">
+								<input class="form-control ad_uri" value = "{{uri}}" id="ds_host" type="text">
+						    </div>
+						    <div class="col-sm-4">	
+								<select class="option_Type" style = "display:none;">
+									<option>选择链接类型</option>
+									<option>原生</option>
+									<option>H5</option>
+								</select>
+						    </div>
+					</div>
+					<div  class="form-group">
+						    <label class="col-sm-3 control-label" for="ds_host">主标题</label>
+						    <div class="col-sm-5">
+								<input class="form-control main_title" value = "{{main_title}}" id="ds_host" type="text" placeholder="不超过9个字">
+						    </div>
+						    <div class="col-sm-4">	
+						    	<a>不超过9个字</a>
+						    </div>
+					</div>
+					<div  class="form-group">
+						    <label class="col-sm-3 control-label" for="ds_host">副标题</label>
+						    <div class="col-sm-5">
+								<input class="form-control side_title" value = "{{side_title}}" id="ds_host" type="text" placeholder="不超过9个字">
+						    </div>
+						    <div class="col-sm-4">	
+						    	<a>不超过9个字</a>
+						    </div>
+					</div>
+					<div class="form-group">
+						   <div class="col-sm-3 control-label parent-span" for="ds_host">
+								<span class="span-submit">
+								    <div>上传图片</div>
+								</span>
+						   </div>
+						   <div class="col-sm-5" style="position:relative;">
+						       <div class="form-control input_image">
+						       	  <i class="fa fa-plus-square"></i>
+						       </div>
+						       <input type="file" value="上传图片" class="summit_picture" id = "file" name = "file"/>
+						       <img src="{{pic_url1}}" class="Upload_file" id="ds_host" />
+						   </div>
+						   <div class="col-sm-4">
+						   </div>	
+					</div>
+
+				    <div class="form-group">
+						   <div class="col-sm-3 control-label parent-span" for="ds_host">
+								<span class="span-submit">
+								</span>
+						   </div>
+						   <div class="col-sm-5" style="position:relative;">
+						       <div class="form-control input_image">
+						       	  <i class="fa fa-plus-square"></i>
+						       </div>
+						       <input type="file" value="上传图片" class="summit_picture1" id = "file1" name = "file"/>
+						       <img src="{{pic_url2}}" class="Upload_file1" id="ds_host" />
+						   </div>
+						   <div class="col-sm-4">
+						   </div>	
+					</div>
+				{{/each}}
+			</form>
+		</article>
+	</div>
+</div>
+
+
+<button class="btn btn-info edit_confirm fr">确定</button>
+<button class="btn btn-warning edit_quit fr">取消</button>

@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+//  css3兼容写法
+@mixin c3($key , $value){
+    -webkit-#{$key}: $value;
+    -moz-#{$key}: $value;
+    -o-#{$key}: $value;
+    #{$key}: $value;
+}
+
+//  透明度
+//  $op 必须是小数
+
+@mixin bg_opacity($color, $op){
+    
+    @if length($color) == 1{    // input color in 16
+        background:$color;
+        filter:alpha(opacity = $op *100);    
+        background:rgba($color,$op);
+    }
+    
+    @else if length($color) == 3{   // input color in RGB
+        background:rgb(nth($color,1),nth($color,2),nth($color,3));
+        filter:alpha(opacity = $op *100);
+        background:rgba(nth($color,1),nth($color,2),nth($color,3),$op);
+
+    }
+}
+

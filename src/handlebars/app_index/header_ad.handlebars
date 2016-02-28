@@ -1,0 +1,33 @@
+<div class="content table-responsive table-full-width padding_none">
+    <table class="table table-hover table-striped">
+        <thead>
+          <tr>    
+  		    	<th class="percent_4">头条描述</th>
+  		    	<th class="percent_4">链接</th>
+  		    	<th class="percent_2">操作</th>
+  		    </tr>
+        </thead>
+        <tbody class="edit_sort_zone">
+            {{#each data}}
+            <tr class="row tr_sortable">
+            	<td class="percent_4">
+                   <textarea rows="2" class="cate_desp">{{content}}
+                   </textarea>
+                   {{!-- <input type="text" value="分期40天免息政策开始啦。。。" class="cate_name"/> --}}
+            	</td>
+            	<td class="percent_4">
+                   <input type="text"  class="cate_uri" value="{{uri}}"/>
+            	</td>
+            	<td class="percent_2">
+                   <i class="fa fa-unlock switch_lock" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="去解锁" style = "display:none;"></i>
+                   <i class="fa fa-plus-square"></i>
+                   <i class="fa fa-minus-square"></i>
+                </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+
+<button class="btn btn-info edit_confirm fr">确定</button>
+<button class="btn btn-warning edit_quit fr">取消</button>

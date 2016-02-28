@@ -1,0 +1,36 @@
+
+@import "./left.scss";
+.navbar-left li input{
+    margin-top: 17px;
+    margin-left: 10px;
+    position: relative;
+    @include c3(border-radius,3px);
+    outline: none;
+    border: 0px;
+    height: 24px;
+    width: 140px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.live_preview,.drag_btn_div{
+    padding:0px;
+    cursor:pointer;
+    margin: 10px 3px;
+    position: relative;
+    margin-left: 270px;
+    i{
+        font-size:40px;
+        float:left;
+    }
+    span{
+        float: left;
+        padding-top: 10px;
+        padding-left: 10px;
+        color: white;
+    }
+}
+
+.drag_btn_div{
+    margin-left:20px !important;
+}

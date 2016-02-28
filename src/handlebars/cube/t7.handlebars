@@ -1,0 +1,24 @@
+<div class="div1 rose template drop_item index_t7" data-tpl = "t7" appId = "{{data.appId}}">
+       {{#each data.content}}
+           <div class="rose-left edit_each_click" data-edit = "onetwo_text_pic2" data-uri = "{{uri}}" data-com-price = "">
+               <dl>
+                   <dt class = "main_title">{{mainTitle}}</dt>
+                   <dd class = "side_title">{{sideTitle}}</dd>
+                   <dd class="rose-dd pay_month_div">
+                       <span class = "pay_month_title">月供</span>&yen;
+                       <span class = "pay_month">{{payMonth}}</span>
+                       <span class = "qi_last">期</span>
+                   </dd>
+                   <dd class="rose-dd price_div" style = "display:none;">
+                       <span class = "price_title">售价</span>&yen;
+                       <span class = "price">{{price}}</span>
+                   </dd>
+               </dl>
+               <a class = "img_url" style = "background:url({{picUri}});background-size: contain;background-repeat:no-repeat;"></a>
+           </div>
+       {{/each}}
+
+       <button type="button" class="btn btn-default btn-xs remove"><span class="glyphicon glyphicon-trash"></span></button>
+
+       <div style="clear:both;"></div>
+   </div>

@@ -1,0 +1,55 @@
+#extends("page/layout/layout_single.vm")
+#block('head')
+    <meta charset="utf-8">
+    <title>模板页面</title>
+       <link href="${static_resource}/src/css/bin/app/index.css" rel="stylesheet">
+       <link href="${static_resource}/src/css/outer/font-awesome.css" rel="stylesheet">
+#end
+
+
+#block('body')
+ 
+#widget('page/common/header/header.vm') 
+<div class="wrapper">
+    #widget('page/common/side/composite_side.vm')
+    <div class="main-panel">          
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">                   
+                    <div class="col-md-12">
+                        <div class="phone_like">
+                          <div id="dropzone" class="ui-droppable ui-sortable clearfix">
+                                <div class="drop_item" style="position: relative;display:none;">
+                                  <details>
+                                       <summary>测试</summary>
+                                       <div>
+                                            <label>More Data</label>
+                                            <input type="text" />
+                                       </div>
+                                  </details>
+                                      <button type="button" class="btn btn-default btn-xs remove"><span class="glyphicon glyphicon-trash"></span></button>
+                                </div>
+
+                                <div class="preview_index" style="display:none;">
+                                  
+                                </div>
+                          </div>
+                        <div>
+                    </div>                         
+                </div>                    
+            </div>
+        </div>
+    </div>   
+</div>
+
+#end
+
+
+#block('script')
+    <script src="${static_resource}/src/js/bin/app/index.js"></script>
+#end
+#end
+
+
+
+

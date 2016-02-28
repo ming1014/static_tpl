@@ -1,0 +1,231 @@
+@import "./edit.scss";
+.main .template{
+	cursor:pointer;
+	@include c3(border-radius,5px);
+	&:hover{
+		@include c3(transform,scale(1.01));
+		opacity:0.9;
+	}
+}
+
+
+#carousel_tpl{
+	width:80%;
+	margin:auto;
+	@include c3(border-radius,5px);
+}
+
+/**
+** wujianglong
+**/
+.Girl-area{padding: 0px;}
+.Girl-area p{color:#666;font-size: 16px;font-weight: bold;margin-bottom: 0px;height:30}
+.Girl-area p span{color:#ccc;float: right;}
+.Girl-area a{display:block;width:100%;height:20%;background:url(http://cdn.ufenqi.com/cms/img/Girl-area.png) no-repeat;background-size:100% 100%;margin-bottom: 2%;}
+.Girl-area ul {padding-left:0px;width:100%;height:62%;}
+.Girl-area ul li{float:left;list-style:none;width:32%;height:100%;margin-right: 2%;border:1px solid #eee;}
+.Girl-area ul li:last-Child{margin-right: 0;}
+.Girl-area ul li dl{display: block;height:100%;width: 100%;}
+.Girl-area ul li dl dt{display: block;height:70%;width: 100%;}
+.Girl-area ul li dl dt.Girl-area-dt1{background:url(http://cdn.ufenqi.com/cms/img/Girl-area1.png) center center no-repeat;background-size:contain;}
+.Girl-area ul li dl dt.Girl-area-dt2{background:url(http://cdn.ufenqi.com/cms/img/Girl-area2.png) center center no-repeat;background-size:contain;}
+.Girl-area ul li dl dt.Girl-area-dt3{background:url(http://cdn.ufenqi.com/cms/img/Girl-area3.png) center center no-repeat;background-size:contain;}
+.Girl-area ul li dl dd{white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;display:block;padding-left:5%;width:100%;height:15%;background:#eee;font-size: 14px;}
+.Girl-area ul li dl dd.Girl-area-price{background:#fff;}
+.Girl-area ul li dl dd.Girl-area-price span{color:red;}
+
+
+
+/*************   suya *****************/
+
+.main div {
+    text-align: center;
+}
+
+#dropzone div img {
+    display: block;
+}
+
+//*******宽度90广告位
+#div_ad_90perc {
+    clear: both;
+    padding: 0px!important;
+    margin: 15px auto;
+    overflow:hidden;
+    .ad_90perc {
+        width: 100%;
+    }
+}
+
+.main #div_ad_90perc {
+    width: 80%;
+}
+
+#dropzone #div_ad_90perc {
+    width: 96%;
+}
+
+//***********//
+//*********宽度96广告位
+#div_ad_96perc {
+    clear: both;
+    padding: 0px!important;
+    margin: 15px auto;
+    .ad_96perc {
+        width: 100%;
+    }
+}
+
+.main #div_ad_96perc {
+    width: 80%;
+}
+
+#dropzone #div_ad_96perc {
+    // width: 100%;
+}
+
+
+/*****************/
+
+//********两图广告位
+#div_ad_2pics {
+    padding: 0px!important;
+    clear: both;
+    margin: 15px auto;
+    overflow: hidden;
+    img {
+        width: 48%;
+        margin-left:3px !important;
+    }
+    .ad_2pics_l:first-child {
+        float: left;
+    }
+    .ad_2pics_r{
+        float:right;
+    }
+    .ad_2pics_l:last-child {
+        float: right;
+    }
+}
+
+.main #div_ad_2pics {
+    width: 80%;
+}
+
+#dropzone #div_ad_2pics {
+    width: 96%;
+}
+
+//*************
+
+
+//******坑位广告 左右
+.main {
+    #div_ad_inPits_l {
+        clear: both;
+        float: left;
+        margin: 15px 5% 15px 5%;
+        width: 90%;
+        padding: 0px!important;
+    }
+    #div_ad_inPits_r {
+        clear: both;
+        float: right;
+        margin: 15px 10% 15px 0;
+    }
+    .ad_inPits {
+        width: 100%;
+    }
+}
+
+#dropzone {
+    #div_ad_inPits_l {
+    	float:left;
+        clear: none;
+        margin: 15px 5% 15px 5%;
+        width: 90%;
+    }
+    //坑位广告 右
+    #div_ad_inPits_r {
+        float: right;
+    }
+    .ad_inPits {
+        width: 100%;
+    }
+    #carousel_tpl{
+    	width:100%;
+    }
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     height: 0;
+     clear: both;
+     visibility: hidden;
+}
+
+.drop_item .phone-list{
+	float:left;
+}
+//*********
+
+.aaaa{
+	color:red;
+}
+
+.history-content{
+    width: 370px;
+    margin: 10px;
+    margin-top:30px;
+    max-height:500px;
+    @include c3(border-radius,5px);
+    overflow-y: scroll;
+    .cate_uri{
+        color:#333;
+    }
+    thead{
+        background: rgba(0,0,0,0.2);
+    }
+    tbody tr{
+        background: rgba(0,0,0,0.2) !important;
+        color: white;
+        input{
+            @include c3(border-radius,3px);
+        }
+    }
+}
+
+.sidebar-wrapper{
+    .active{
+        // background: rgba(255,255,255,0.5) !important;
+        // @include c3(border-radius,5px);
+    }
+}
+.ui-tooltip {
+    padding: 8px !important;
+    position: absolute !important;
+    z-index: 9999;
+    max-width: 300px;
+    -webkit-box-shadow: 0 0 5px #aaa !important;
+    /* box-shadow: 0 0 5px #aaa; */
+}
+
+// #left_switch_content{
+//     position:relative;
+//     .right_hide_scroll{
+//         position:absolute;
+//         height:100%;
+//         width:30px;
+//         right:0px;
+//         top:0px;
+//         background: linear-gradient(to bottom, #1F77D0 0%, #533ce1 100%);
+//     }
+// }
+
+.vertical_title_ul{
+    .active{
+        border-bottom:2px solid red;
+    }
+
+}

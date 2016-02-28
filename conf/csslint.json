@@ -1,0 +1,7 @@
+{
+	"warnings" : [".body", ".content"],
+	"errors ":[],
+	"ie":true,
+	"ignore":[]
+
+}

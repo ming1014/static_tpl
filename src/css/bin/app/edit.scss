@@ -1,0 +1,516 @@
+@import "../../common/common.scss";
+.cate_img{
+	width: 30px;
+    height: 30px;
+    margin:auto;
+}
+
+.padding_none tr,.padding_none tr td,th{
+	padding:0px;
+	text-align:center;
+}
+td{
+	text-align:center !important;
+	input{
+		border:0px;
+		cursor:pointer;
+		width:100%;
+		&:hover{
+		    @include c3(transform,scale(1.05));
+		    @include c3(transition,transform .3s ease-out)
+		}
+   }
+}
+
+.popover{
+    max-width:500px;
+    min-height:350px !important;
+    .popover-content{
+    	max-height: 600px;
+		overflow-y: scroll;
+		overflow-x: hidden;
+    }
+
+    .edit_confirm, .edit_quit{
+		width: 90px;
+	    margin: 10px;
+	    height: 35px;
+	    line-height: 5px;
+	    font-size: 16px;
+	}
+	.edit_confirm{
+    	margin-right:30px;
+    }
+	.img_upload{
+	            font-size:12px;
+		width:80%;
+		margin-left:12%;
+		height:30px;
+		color:white;
+		z-index:2015;
+	}	
+	.img_percent{
+		padding-top:3px;
+	}
+}
+
+/* wjl */
+.summit_picture{
+	position: absolute;
+	opacity:0;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100px;
+	cursor:pointer;
+}
+.Upload_file{
+	width: 44%;
+	margin-left: 28%;
+	margin-top: 10px;
+    @include c3(border-radius, 5px);
+    overflow: hidden;
+	border: 0px solid transparent;
+	padding: 0px;
+}	
+
+.picture_content{
+    .form-control{
+    	height:35px;
+    }
+	.input_image{
+		height: 100px;
+	    text-align: center;
+	    font-size: 30px;
+	    color: red;
+	    font-weight: 700;
+	    cursor: pointer;
+	    background: transparent;
+	    line-height: 70px;
+	    opacity:1;
+	    border:0px;
+	    @include c3(transition, opacity 2s);
+	    i{
+	    	color:rgba(0,0,0,0.2);
+	    }
+	    &:hover{
+	    	opacity:0.5;
+	    }
+	}
+	.summit_picture1, .summit_picture{
+		position: absolute;
+		opacity:0;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100px;
+		cursor:pointer;
+	}
+    .Upload_file1, .Upload_file{
+    	// opacity:0;
+		width: 44%;
+		margin-left: 28%;
+		margin-top: 10px;
+	    @include c3(border-radius, 5px);
+	    overflow: hidden;
+		border: 0px solid transparent;
+		padding: 0px;
+		opacity: 0;
+    }	
+    .parent-span{
+        position:relative;
+        .span-submit{
+              
+	          position:absolute;
+              left:40px;
+              top:0px; 
+              padding:0px;
+              button{
+              		width:100%;
+              }
+        }
+    }
+    .div_btn{
+    	width:50px;
+    	height:25px;
+    	line-height:25px;
+    	background:#ccc;
+    	margin-right:20px;
+    	text-align:center;
+    	border:1px solid #999;
+    	border-radius:1px;
+    }
+}
+
+.picture_text_content{
+	.input_red{
+		color:#FF0033!important;
+		font-size:14px;
+	}
+	.form-control{
+    	height:35px;
+    }
+	article{
+		.input_image{
+			height: 100px;
+		    text-align: center;
+		    font-size: 30px;
+		    color: red;
+		    font-weight: 700;
+		    cursor: pointer;
+		    background: transparent;
+		    z-index:2018;
+		    line-height: 70px;
+		    border:0px;
+		    @include c3(transition, opacity 2s);
+		    i{
+		    	color:rgba(0,0,0,0.2);
+		    }
+		    &:hover{
+		    	opacity:0.5;
+		    }
+		}
+		.summit_picture1{
+			opacity:0;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100px;
+			cursor:pointer;
+			z-index:2020;
+		}
+		.Upload_file{
+			position:absolute;
+			top:10px;
+			left:-20px;
+			z-index:-1;	
+		}
+	    .Upload_file1{
+	    	// opacity:0;
+			margin-top: 10px;
+		    @include c3(border-radius, 5px);
+		    overflow: hidden;
+			border: 0px solid transparent;
+			padding: 0px;
+			position: absolute;
+		    top: 0px;
+		    left:35px;
+		    margin: auto;
+		    max-width: 100%;
+		    max-height: 100px;
+		    z-index: -1;
+	    }	
+	    .parent-span{
+            position:relative;
+            .span-submit{
+                  width:60%;
+		          position:absolute;
+	              left:40px;
+	              top:0px; 
+	              padding:0px;
+	              button{
+	              		width:100%;
+	              }
+	     }	    
+	    }
+	    .div_btn{
+	    	width:50px;
+	    	height:25px;
+	    	line-height:25px;
+	    	background:#ccc;
+	    	margin-right:20px;
+	    	text-align:center;
+	    	border:1px solid #999;
+	    	border-radius:1px;
+	    }
+	}
+}
+.Vertical-heading{
+	height:100%;
+	width:500px;
+	.cate_name{
+		text-align:center;
+	}
+	header{
+		padding-left:20px;
+		a{
+			color:#999;
+
+		}
+		margin-bottom:0px;
+		.span-right{
+			float:right;
+		}
+	}
+	.div_btn{
+		    width:60px;
+	    	height:25px;
+	    	line-height:25px;
+	    	background:#ccc;
+	    	margin-right:20px;
+	    	text-align:center;
+	    	border:1px solid #999;
+	    	border-radius:1px;
+	    	float:right;
+	}
+}
+.Lateral-floor{
+	width:500px;
+	height:100%;
+	.btn-div{
+			float:right;
+			width:60px;
+	    	height:25px;
+	    	line-height:25px;
+	    	background:#ccc;
+	    	margin:10px 15px 0 0;
+	    	text-align:center;
+	    	border:1px solid #999;
+	    	border-radius:1px;
+	}
+	.Lateral-floor-text{
+		width:100px;
+		margin:0 10px 0 10px;
+	}
+	section{
+		border-top:1px solid #ccc;
+		padding-top:10px;
+		p{
+			margin-bottom:0px;
+		}
+	}	
+}
+.Carousel-floor{
+	width:500px;
+	height:auto;
+	.table{
+		.td{
+			border-top:0px;
+		}
+		.td-img{
+			border:1px solid #ccc;
+			height:100px;
+	    }
+	}
+	.percent_6 input{
+		width:100%;
+		margin-left:0px;
+	}
+}
+
+.edit_confirm, .edit_quit{
+	width: 90px;
+    margin: 10px;
+    height: 35px;
+    line-height: 5px;
+    font-size: 16px;
+}  
+
+#vertical_floor_nav{
+	margin-bottom:15px;
+}
+
+.show_more{
+	margin:10px;
+}
+
+.orientation_content_add i{
+	color: #999;
+    font-size: 30px;
+    cursor: pointer;
+}
+.orientation_content_list{
+	.square_empty{
+	    vertical-align: middle;
+	    width: 45%;
+	    margin-left: 3%;
+	    background: #eee;
+        margin-bottom: 10px;
+	}
+}
+.template{
+	// overflow:hidden !important;
+}
+.slide_div img{
+	height:214px !important;
+	width:418px !important;
+}
+.index_t1{
+	ul{
+		overflow:auto !important;
+	}
+}
+.index_t2{
+	height:30px;
+   p{
+		display:none;
+		&:first-of-type{
+	   	  display:block !important;
+	    }
+	}
+}
+.index_t3, .index_t13{
+	height:214px !important;
+	.glyphicon-chevron-left, .glyphicon-chevron-right{
+		top:95px !important;
+	}
+	.remove{
+		display:none;
+	}
+}
+
+.index_t13{
+	height:248px !important;
+}
+#dropzone {
+	[data-tpl=t3]{
+		.glyphicon-chevron-left, .glyphicon-chevron-right{
+			display:none;
+		}
+		.remove{
+			display:none;
+		}
+	}
+	[data-tpl=t13]{
+		.glyphicon-chevron-left, .glyphicon-chevron-right{
+			display:none;
+		}
+	}
+}
+
+
+.index_t7{
+	.img_url{
+		width:70px !important;
+		height:70px !important;
+	}
+}
+#cube_div{
+	padding-top:20px;
+	.top{
+		display:none;
+	}
+}
+
+.content .container-fluid{
+	margin-left:-20px;
+}
+
+.swiper-container{
+	// overflow:inherit !important;
+	.swiper-button-next{
+		width: 80px;
+	    height: 80px;
+	    right: -20px;
+	}
+	.swiper-button-prev{
+	    width: 80px;
+	    height: 80px;
+	    left: -20px;
+	}
+}
+	// .swiper-button-next{
+	// 	right:-30px;
+	// }
+	// .swiper-button-prev{
+	// 	left:-30px;
+	// }
+// }
+//  上传图片
+.start_page{
+	.img_upload{
+	    opacity: 0;
+	    position: absolute;
+	    z-index: 100;
+	    height: 140px;
+	    width: 60%;
+	    margin-left: 20%;
+	    bottom: -20px;
+	}
+	.start_btn{
+	    width: 220px;
+	    position: relative;
+	    left: 170px;
+	    top: 10px;
+	    z-index: 1;
+	}
+}
+
+
+.index_img_upload{
+	width: 60% !important;
+    margin-left: 20% !important;
+    height: auto;
+    border:0px solid white !important;
+    @include c3(border-radius,5px);
+}
+
+.start_page_set_date, .start_page_set_time{
+	outline: none;
+    border: 1px solid #ccc;
+    height: 25px;
+    width: 170px;
+}
+
+.t15_content_list {
+	.orientation_content_list{
+		height:auto;
+	}
+}
+
+#dropzone [data-tpl=t6]{
+	height:auto !important;
+	img{
+		float:left!important;
+		margin-bottom:10px !important;
+		border:0px solid white !important;
+	}
+}
+
+.edit_add_row, .t6_delete{
+	margin-top: 10px;
+    height: 35px;
+}
+
+.index_t15 .shouji1{
+	height:140px !important;
+}
+
+.t15_content_list .edit_each_click{
+	height:200px !important;
+}
+
+.index_t3 .carousel-inner{
+	height:204px !important;
+}
+
+.swiper-container-horizontal{
+	width:80%;
+}
+
+#dropzone .vertical_floor{
+	overflow:hidden;
+}
+
+.carousel-inner{
+	height:214px !important;
+}
+
+.index_t14 .landscape_header_img{
+	height:100px;
+}
+
+.swiper-button-prev-t14{
+	top: 30%;
+    opacity: 1;
+    position: absolute;
+    top: 40%;
+    width: 50px;
+    height: 50px;
+    z-index: 9999;
+}
+
+.orientation_content_list li{
+	border:0px;
+}
